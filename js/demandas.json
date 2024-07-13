@@ -1,0 +1,27 @@
+[
+  {
+    "genero": "Masculino",
+    "faixaetaria": "18-30",
+    "quantidade": 10,
+    "particularidades": [
+      {"tipo": "Cadeirantes", "quantidade": 2}
+    ]
+  },
+  {
+    "genero": "Feminino",
+    "faixaetaria": "30-45",
+    "quantidade": 5,
+    "particularidades": [
+      {"tipo": "Hipertensos", "quantidade": 1}
+    ]
+  },
+  {
+    "genero": "Feminino",
+    "faixaetaria": "18-25",
+    "quantidade": 3,
+    "particularidades": [
+      {"tipo": "Cadeirantes", "quantidade": 1},
+      {"tipo": "Hipertensos", "quantidade": 1}
+    ]
+  }
+]
