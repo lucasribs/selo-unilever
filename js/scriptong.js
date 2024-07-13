@@ -1,6 +1,6 @@
 // Exemplo de dados
 let demandas = [];
-let empresaId = 15;
+let empresaId = "SOJUNTOS";
 let necessidades = [];
 function carregarDemandas() {
     popularTabela([])
@@ -190,20 +190,23 @@ function popularTabela(demandas) {
     demandas.forEach((demanda, index) => {
         const row = tabela.insertRow();
 
-        const generoCell = row.insertCell(0);
+        const idCell = row.insertCell(0);
+        idCell.textContent = index + 1;
+
+        const generoCell = row.insertCell(1);
         generoCell.textContent = demanda.genero;
 
-        const faixaEtariaCell = row.insertCell(1);
+        const faixaEtariaCell = row.insertCell(2);
         faixaEtariaCell.textContent = demanda.faixaetaria;
 
-        const quantidadeCell = row.insertCell(2);
+        const quantidadeCell = row.insertCell(3);
         quantidadeCell.textContent = demanda.quantidade;
 
-        const particularidadesCell = row.insertCell(3);
+        const particularidadesCell = row.insertCell(4);
         const listaParticularidades = demanda.particularidades.filter(part => part.tipo !== "Nenhuma particularidade").map(part => `${part.tipo}: ${part.quantidade}`).join(", ");
         particularidadesCell.textContent = listaParticularidades || "-";
 
-        const acoesCell = row.insertCell(4);
+        const acoesCell = row.insertCell(5);
         acoesCell.innerHTML = `
             <div class="btn-group" role="group" aria-label="Ações">
                 <button type="button" class="btn btn-warning btn-sm" onclick="abrirModal(${index})"><i class="bi bi-pencil-square"></i></button>
@@ -273,7 +276,7 @@ function salvarDemanda(event) {
 
     popularTabela(demandas);
     const modal = bootstrap.Modal.getInstance(document.getElementById('alterarModal'));
-    popularNecessidade(calcularNecessidades(novaDemanda));
+    popularNecessidade(index+1, calcularNecessidades(novaDemanda));
     modal.hide();
 }
 
@@ -303,11 +306,12 @@ function salvarNecessidades() {
     var armazenamentoDemandas = [];
     demandas.forEach((demanda, index) =>{
         armazenamentoDemandas.push({
+            id: index,
             "demandaAtual": demanda,
             necessidades: calcularNecessidades(demanda)
         })
     })
-    alert("Hello")
+
 
     let demandaDaEmpresa = {empresaId: empresaId,
         "demandas": armazenamentoDemandas}
@@ -333,7 +337,7 @@ document.addEventListener('DOMContentLoaded', function() {
 //popularTabela(demandas);
 
 // Função para popular a tabela
-function popularNecessidade(necessidades) {
+function popularNecessidade(idDemanda, necessidades) {
     const div = document.getElementById("divNecessidades").setAttribute("class", "");
     const tableNecessidade = document.getElementById("necessidadesTable").getElementsByTagName('tbody')[0];
     tableNecessidade.innerHTML = ""; // Limpa a tabela antes de preenchê-la
@@ -343,22 +347,26 @@ function popularNecessidade(necessidades) {
         const sservicos = necessidade.servicos;
         sservicos.forEach((servico, i) =>{
             const row = tableNecessidade.insertRow();
-            const sTipoCell = row.insertCell(0);
+            const sidDemandaCell = row.insertCell(0);
+            sidDemandaCell.textContent = idDemanda;
+            const sTipoCell = row.insertCell(1);
             sTipoCell.textContent = "Serviços";
-            const sNomeCell = row.insertCell(1);
+            const sNomeCell = row.insertCell(2);
             sNomeCell.textContent = servico.nome;
-            const sQuantidadeCell = row.insertCell(2);
+            const sQuantidadeCell = row.insertCell(3);
             sQuantidadeCell.textContent = servico.quantidade;
         }
         )
         const smedicamentos = necessidade.medicamentos;
         smedicamentos.forEach((medicamento, i) =>{
                 const row = tableNecessidade.insertRow();
-                const sTipoCell = row.insertCell(0);
+                const sidDemandaCell = row.insertCell(0);
+                sidDemandaCell.textContent = idDemanda;
+                const sTipoCell = row.insertCell(1);
                 sTipoCell.textContent = "Medicamentos";
-                const sNomeCell = row.insertCell(1);
+                const sNomeCell = row.insertCell(2);
                 sNomeCell.textContent = medicamento.nome;
-                const sQuantidadeCell = row.insertCell(2);
+                const sQuantidadeCell = row.insertCell(3);
                 sQuantidadeCell.textContent = medicamento.quantidade;
             }
         )
@@ -366,11 +374,13 @@ function popularNecessidade(necessidades) {
         const salimentos = necessidade.alimentos;
         salimentos.forEach((alimento, i) =>{
                 const row = tableNecessidade.insertRow();
-                const sTipoCell = row.insertCell(0);
+                const sidDemandaCell = row.insertCell(0);
+                sidDemandaCell.textContent = idDemanda;
+                const sTipoCell = row.insertCell(1);
                 sTipoCell.textContent = "Alimentos";
-                const sNomeCell = row.insertCell(1);
+                const sNomeCell = row.insertCell(2);
                 sNomeCell.textContent = alimento.nome;
-                const sQuantidadeCell = row.insertCell(2);
+                const sQuantidadeCell = row.insertCell(3);
                 sQuantidadeCell.textContent = alimento.quantidade;
             }
         )
@@ -378,11 +388,13 @@ function popularNecessidade(necessidades) {
         const shigiene = necessidade.higiene;
         shigiene.forEach((higiene, i) =>{
                 const row = tableNecessidade.insertRow();
-                const sTipoCell = row.insertCell(0);
+                const sidDemandaCell = row.insertCell(0);
+                sidDemandaCell.textContent = idDemanda;
+                const sTipoCell = row.insertCell(1);
                 sTipoCell.textContent = "Higiene";
-                const sNomeCell = row.insertCell(1);
+                const sNomeCell = row.insertCell(2);
                 sNomeCell.textContent = higiene.nome;
-                const sQuantidadeCell = row.insertCell(2);
+                const sQuantidadeCell = row.insertCell(3);
                 sQuantidadeCell.textContent = higiene.quantidade;
             }
         )

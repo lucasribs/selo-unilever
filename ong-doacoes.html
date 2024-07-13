@@ -99,6 +99,27 @@
 
   <!-- Custom styles for this template -->
   <link href="carousel.css" rel="stylesheet">
+
+
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+    th {
+      background-color: #f2f2f2;
+      text-align: left;
+    }
+    .action-buttons {
+      display: flex;
+      gap: 5px;
+    }
+  </style>
+
 </head>
 <body>
 <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
@@ -183,167 +204,98 @@
 
 <main>
 
-
-
-
-  <div class="modal modal-lg fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <!-- Modal para Adicionar/Alterar -->
+  <div class="modal fade" id="alterarModal" tabindex="-1" aria-labelledby="alterarModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Solicitação de Inscrição</h1>
+          <h5 class="modal-title" id="alterarModalLabel">Alterar Doacao</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-
         <div class="modal-body">
-          <div class="container-fluid">
-
-            <div class = "row">
-              <div class="col">
-                <label class ="form-label" for="nome">Nome:</label>
-                <input id="nome" name="primeiroNome">
-              </div>
-              <div class = "col">
-                <label class="form-label" for="data">CEP:</label>
-                <input id="data" name="CEP">
-              </div>
+          <form id="alterarForm" onsubmit="salvarDoacao(event)">
+            <input type="hidden" id="index">
+            <div class="mb-3">
+              <label for="genero" class="form-label">Tipo de Doação:</label>
+              <select class="form-control" id="genero" name="genero">
+                <option value="higiene">Higiene</option>
+                <option value="alimentos">Alimentos</option>
+                <option value="medicamentos">Medicamentos</option>
+                <option value="servicos">Serviços</option>
+              </select>
             </div>
-            <hr>
-            <div class ="row">
-              <div class ="col">
-                <fieldset>
-                  <legend class = "text-center">Tipos de Necessidades:</legend>
-              </div>
-              </div>
-            <div class ="row">
-              <div class ="col">
-                  <input type="checkbox" name="medicamentos" value="med"> Medicamentos
-                  <input type="checkbox" name="alimentos" value="alm"> Alimentos<br>
-                  <input type="checkbox" name="higiene" value="hgn"> Higiene
-                  <input type="checkbox" name="limpeza" value="lmp"> Limpeza
-                </fieldset>
-              </div>
-
-              <div class ="col">
-                <fieldset>
-                  <div class ="row">
-                    <div class ="col">
-                  <input type="radio" name="necesp" value="ne"> Necessidade esporádica
-                    </div></div>
-                  <div class ="row">
-                    <div class ="col">
-                  <input type="radio" name="neccont" value="nc"> Necessidade Contínua
-                    </div></div>
-                </fieldset>
-              </div>
+            <div class="mb-3">
+              <label for="faixaetaria" class="form-label">Descrição:</label>
+              <input type="text" id = "faixaetaria">
             </div>
-            <hr>
-            <div class = "row">
-              <div class =" col-md-6">
-                <label  for="email"> Email de contato: </label>
-                <input name="email" class="form-label" id="email" type="email" placeholder="name@gmail.com">
-              </div>
-              <div class ="col-md-6">
-                <input name="lido" id="li" type="checkbox"><label for="li">Desejo receber contato para parceria</label>
-              </div>
+            <div class="mb-3">
+              <label for="quantidade" class="form-label">Quantidade:</label>
+              <input type="number" class="form-control" id="quantidade" name="quantidade">
             </div>
-          </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-          <button type="button" class="btn btn-primary">Enviar dados</button>
+            <div class="mb-3">
+              <label for="particularidades" class="form-label">Dias a Vencer:</label>
+              <input type="text" class="form-control" id="particularidades" name="particularidades">
+            </div>
+            <button type="submit" class="btn btn-primary">Salvar</button>
+          </form>
         </div>
       </div>
     </div>
-  </div>
-
-  <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active" style = "background-image: url('img/ong1.jpg');   background-position-x: center;    background-position-y: top; background-repeat: no-repeat;">
-        <svg class="bd-placeholder-img" style=" opacity : 0.6;" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
-        <div class="container">
-          <div class="carousel-caption  d-none d-md-block">
-            <h1>Doe Alimentos.</h1>
-            <p class="opacity-75">Criado pela Rede de Bancos de Alimentos do Rio Grande do Sul, reconhecida instituição que há 20 anos ajuda a minimizar a fome no Estado.</p>
-            <p><a class="btn btn-lg btn-primary" href="https://www.doealimentos.com.br/Inicial">Conheça a ONG.</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item" style = "background-image: url('img/ong2.png');   background-position-y: top;   background-position-x: center; background-repeat: no-repeat;">
-        <svg class="bd-placeholder-img" style=" opacity : 0.6;" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>Só Juntos.</h1>
-            <p>Somos uma Organização Não Governamental (ONG), sem fins lucrativos e apartidária, criada há mais de 25 anos. Acreditamos que só juntos potencializamos o impacto positivo nas comunidades. Vamos juntos nessa? </p>
-            <p><a class="btn btn-lg btn-primary" href="https://parceirosvoluntarios.org.br/">Saiba Mais</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item" style = "background-image: url('img/ong3.png');   background-position-x: center;    background-position-y: top; background-repeat: no-repeat;">
-        <svg class="bd-placeholder-img" style=" opacity : 0.6;" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
-        <div class="container">
-          <div class="carousel-caption text-end">
-            <h1>Sua ONG também pode ajudar?</h1>
-            <p>Cadastre-se e faça parte das ONGs solidarias.</p>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-              Registre-se aqui!
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
   </div>
 
   <!-- Marketing messaging and featurettes
   ================================================== -->
   <!-- Wrap the rest of the page in another container to center all the content. -->
 
-  <div class="container marketing">
+  <h1>Tabela de Doacaos</h1>
+  <table id="doacaoTable" class="table table-bordered">
+    <thead class="thead-light">
+    <tr>
+      <th>Id</th>
+      <th>Tipo de Doação</th>
+      <th>Descricao</th>
+      <th>Quantidade</th>
+      <th>Dias a Vencer</th>
+      <th>Ações</th>
+    </tr>
+    </thead>
+    <tbody>
+    <!-- Conteúdo será inserido pelo JavaScript -->
+    </tbody>
+  </table>
+  <button class="btn btn-primary mb-3" onclick="abrirModalAdicionar()">Incluir Doacao</button>
+  <!--<button class="btn btn-primary mb-3" onclick="salvarNecessidades()">Salvar</button>-->
+  <button class="btn btn-primary mb-3" onclick="carregarDoacaos()">Atualizar</button>
+  <div id="root"></div>
+  <script src="js/scriptdoa.js"></script>
 
-    <!-- Three columns of text below the carousel -->
-    <div class="row">
-      <div class = "col">
-        <h2>Seja um doador!</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-6">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
-        <h2 class="fw-normal">Benefícios Fiscais</h2>
-        <p>Isenções fiscais baseadas na Lei.</p>
-        <p><a class="btn btn-secondary" href="#">Saber Mais &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-6">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
-        <h2 class="fw-normal">Certificação</h2>
-        <p>Selo de Responsabilidade Social.</p>
-        <p><a class="btn btn-secondary" href="#">Saber Mais &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-    </div><!-- /.row -->
-
-
-    <!-- START THE FEATURETTES -->
-
-
-    <!-- FOOTER -->
-    <footer class="container">
-      <p class="float-end"><a href="#">Back to top</a></p>
-      <p>&copy; 2017–2024 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-    </footer>
+  <div id = "divNecessidades" class = "visually-hidden">
+    <h1>Tabela de Necessidades</h1>
+    <table id="necessidadesTable" class="table table-bordered">
+      <thead class="thead-light">
+      <tr>
+        <th>ID Doacao</th>
+        <th>Tipo de Necessidade</th>
+        <th>Nome</th>
+        <th>Quantidade</th>
+        <th>Contribuo?</th>
+      </tr>
+      </thead>
+      <tbody>
+      <!-- Conteúdo será inserido pelo JavaScript -->
+      </tbody>
+    </table>
+  </div>
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2017–2024 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
 </main>
-<script src="assets/dist/js/bootstrap.bundle.min.js"></script>
 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 </body>
 </html>

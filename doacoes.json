@@ -1,0 +1,4626 @@
+[{
+  "empresaId": "SOJUNTOS",
+  "demandas": [
+    {
+      "id": 0,
+      "demandaAtual": {
+        "genero": "Masculino",
+        "faixaetaria": "18-30",
+        "quantidade": 10,
+        "particularidades": [
+          {
+            "tipo": "Cadeirantes",
+            "quantidade": 2
+          }
+        ]
+      },
+      "necessidades": [
+        {
+          "servicos": [],
+          "medicamentos": [],
+          "alimentos": [
+            {
+              "nome": "arroz",
+              "quantidade": 20
+            },
+            {
+              "nome": "feijao",
+              "quantidade": 10
+            },
+            {
+              "nome": "macarrao",
+              "quantidade": 10
+            },
+            {
+              "nome": "oleo",
+              "quantidade": 10
+            },
+            {
+              "nome": "sal",
+              "quantidade": 5
+            },
+            {
+              "nome": "acucar",
+              "quantidade": 10
+            },
+            {
+              "nome": "cafe",
+              "quantidade": 5
+            },
+            {
+              "nome": "farinha_de_trigo",
+              "quantidade": 10
+            },
+            {
+              "nome": "batata",
+              "quantidade": 30
+            },
+            {
+              "nome": "cenoura",
+              "quantidade": 10
+            },
+            {
+              "nome": "tomate",
+              "quantidade": 10
+            },
+            {
+              "nome": "cebola",
+              "quantidade": 5
+            },
+            {
+              "nome": "banana",
+              "quantidade": 20
+            },
+            {
+              "nome": "laranja",
+              "quantidade": 10
+            },
+            {
+              "nome": "leite",
+              "quantidade": 30
+            },
+            {
+              "nome": "carne_bovina",
+              "quantidade": 20
+            },
+            {
+              "nome": "frango",
+              "quantidade": 10
+            },
+            {
+              "nome": "peixe",
+              "quantidade": 5
+            },
+            {
+              "nome": "ovos",
+              "quantidade": 10
+            }
+          ],
+          "higiene": [
+            {
+              "nome": "sabonete",
+              "quantidade": 20
+            },
+            {
+              "nome": "shampoo",
+              "quantidade": 10
+            },
+            {
+              "nome": "condicionador",
+              "quantidade": 10
+            },
+            {
+              "nome": "creme_dental",
+              "quantidade": 20
+            },
+            {
+              "nome": "escova_de_dentes",
+              "quantidade": 10
+            },
+            {
+              "nome": "pasta_de_dentes",
+              "quantidade": 10
+            },
+            {
+              "nome": "desodorante",
+              "quantidade": 20
+            },
+            {
+              "nome": "papel_higienico",
+              "quantidade": 120
+            }
+          ]
+        },
+        {
+          "servicos": [
+            {
+              "nome": "Cardiologista",
+              "quantidade": "1"
+            }
+          ],
+          "medicamentos": [
+            {
+              "nome": "Hidroclorotiazida Medley 25mg",
+              "quantidade": 1
+            }
+          ],
+          "alimentos": [
+            {
+              "nome": "arroz",
+              "quantidade": 10
+            },
+            {
+              "nome": "feijao",
+              "quantidade": 5
+            },
+            {
+              "nome": "macarrao",
+              "quantidade": 5
+            },
+            {
+              "nome": "oleo",
+              "quantidade": 5
+            },
+            {
+              "nome": "sal",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "acucar",
+              "quantidade": 5
+            },
+            {
+              "nome": "cafe",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "farinha_de_trigo",
+              "quantidade": 5
+            },
+            {
+              "nome": "batata",
+              "quantidade": 15
+            },
+            {
+              "nome": "cenoura",
+              "quantidade": 5
+            },
+            {
+              "nome": "tomate",
+              "quantidade": 5
+            },
+            {
+              "nome": "cebola",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "banana",
+              "quantidade": 10
+            },
+            {
+              "nome": "laranja",
+              "quantidade": 5
+            },
+            {
+              "nome": "leite",
+              "quantidade": 15
+            },
+            {
+              "nome": "carne_bovina",
+              "quantidade": 10
+            },
+            {
+              "nome": "frango",
+              "quantidade": 5
+            },
+            {
+              "nome": "peixe",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "ovos",
+              "quantidade": 5
+            }
+          ],
+          "higiene": [
+            {
+              "nome": "sabonete",
+              "quantidade": 10
+            },
+            {
+              "nome": "shampoo",
+              "quantidade": 5
+            },
+            {
+              "nome": "condicionador",
+              "quantidade": 5
+            },
+            {
+              "nome": "creme_dental",
+              "quantidade": 10
+            },
+            {
+              "nome": "escova_de_dentes",
+              "quantidade": 5
+            },
+            {
+              "nome": "pasta_de_dentes",
+              "quantidade": 5
+            },
+            {
+              "nome": "desodorante",
+              "quantidade": 10
+            },
+            {
+              "nome": "papel_higienico",
+              "quantidade": 60
+            },
+            {
+              "nome": "absorvente",
+              "quantidade": 10
+            }
+          ]
+        },
+        {
+          "servicos": [
+            {
+              "nome": "Cardiologista",
+              "quantidade": "1"
+            }
+          ],
+          "medicamentos": [
+            {
+              "nome": "Hidroclorotiazida Medley 25mg",
+              "quantidade": 1
+            }
+          ],
+          "alimentos": [
+            {
+              "nome": "arroz",
+              "quantidade": 6
+            },
+            {
+              "nome": "feijao",
+              "quantidade": 3
+            },
+            {
+              "nome": "macarrao",
+              "quantidade": 3
+            },
+            {
+              "nome": "oleo",
+              "quantidade": 3
+            },
+            {
+              "nome": "sal",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "acucar",
+              "quantidade": 3
+            },
+            {
+              "nome": "cafe",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "farinha_de_trigo",
+              "quantidade": 3
+            },
+            {
+              "nome": "batata",
+              "quantidade": 9
+            },
+            {
+              "nome": "cenoura",
+              "quantidade": 3
+            },
+            {
+              "nome": "tomate",
+              "quantidade": 3
+            },
+            {
+              "nome": "cebola",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "banana",
+              "quantidade": 6
+            },
+            {
+              "nome": "laranja",
+              "quantidade": 3
+            },
+            {
+              "nome": "leite",
+              "quantidade": 9
+            },
+            {
+              "nome": "carne_bovina",
+              "quantidade": 6
+            },
+            {
+              "nome": "frango",
+              "quantidade": 3
+            },
+            {
+              "nome": "peixe",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "ovos",
+              "quantidade": 3
+            }
+          ],
+          "higiene": [
+            {
+              "nome": "sabonete",
+              "quantidade": 6
+            },
+            {
+              "nome": "shampoo",
+              "quantidade": 3
+            },
+            {
+              "nome": "condicionador",
+              "quantidade": 3
+            },
+            {
+              "nome": "creme_dental",
+              "quantidade": 6
+            },
+            {
+              "nome": "escova_de_dentes",
+              "quantidade": 3
+            },
+            {
+              "nome": "pasta_de_dentes",
+              "quantidade": 3
+            },
+            {
+              "nome": "desodorante",
+              "quantidade": 6
+            },
+            {
+              "nome": "papel_higienico",
+              "quantidade": 36
+            },
+            {
+              "nome": "absorvente",
+              "quantidade": 6
+            }
+          ]
+        },
+        {
+          "servicos": [],
+          "medicamentos": [],
+          "alimentos": [
+            {
+              "nome": "arroz",
+              "quantidade": 20
+            },
+            {
+              "nome": "feijao",
+              "quantidade": 10
+            },
+            {
+              "nome": "macarrao",
+              "quantidade": 10
+            },
+            {
+              "nome": "oleo",
+              "quantidade": 10
+            },
+            {
+              "nome": "sal",
+              "quantidade": 5
+            },
+            {
+              "nome": "acucar",
+              "quantidade": 10
+            },
+            {
+              "nome": "cafe",
+              "quantidade": 5
+            },
+            {
+              "nome": "farinha_de_trigo",
+              "quantidade": 10
+            },
+            {
+              "nome": "batata",
+              "quantidade": 30
+            },
+            {
+              "nome": "cenoura",
+              "quantidade": 10
+            },
+            {
+              "nome": "tomate",
+              "quantidade": 10
+            },
+            {
+              "nome": "cebola",
+              "quantidade": 5
+            },
+            {
+              "nome": "banana",
+              "quantidade": 20
+            },
+            {
+              "nome": "laranja",
+              "quantidade": 10
+            },
+            {
+              "nome": "leite",
+              "quantidade": 30
+            },
+            {
+              "nome": "carne_bovina",
+              "quantidade": 20
+            },
+            {
+              "nome": "frango",
+              "quantidade": 10
+            },
+            {
+              "nome": "peixe",
+              "quantidade": 5
+            },
+            {
+              "nome": "ovos",
+              "quantidade": 10
+            }
+          ],
+          "higiene": [
+            {
+              "nome": "sabonete",
+              "quantidade": 20
+            },
+            {
+              "nome": "shampoo",
+              "quantidade": 10
+            },
+            {
+              "nome": "condicionador",
+              "quantidade": 10
+            },
+            {
+              "nome": "creme_dental",
+              "quantidade": 20
+            },
+            {
+              "nome": "escova_de_dentes",
+              "quantidade": 10
+            },
+            {
+              "nome": "pasta_de_dentes",
+              "quantidade": 10
+            },
+            {
+              "nome": "desodorante",
+              "quantidade": 20
+            },
+            {
+              "nome": "papel_higienico",
+              "quantidade": 120
+            }
+          ]
+        },
+        {
+          "servicos": [
+            {
+              "nome": "Cardiologista",
+              "quantidade": "1"
+            }
+          ],
+          "medicamentos": [
+            {
+              "nome": "Hidroclorotiazida Medley 25mg",
+              "quantidade": 1
+            }
+          ],
+          "alimentos": [
+            {
+              "nome": "arroz",
+              "quantidade": 10
+            },
+            {
+              "nome": "feijao",
+              "quantidade": 5
+            },
+            {
+              "nome": "macarrao",
+              "quantidade": 5
+            },
+            {
+              "nome": "oleo",
+              "quantidade": 5
+            },
+            {
+              "nome": "sal",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "acucar",
+              "quantidade": 5
+            },
+            {
+              "nome": "cafe",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "farinha_de_trigo",
+              "quantidade": 5
+            },
+            {
+              "nome": "batata",
+              "quantidade": 15
+            },
+            {
+              "nome": "cenoura",
+              "quantidade": 5
+            },
+            {
+              "nome": "tomate",
+              "quantidade": 5
+            },
+            {
+              "nome": "cebola",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "banana",
+              "quantidade": 10
+            },
+            {
+              "nome": "laranja",
+              "quantidade": 5
+            },
+            {
+              "nome": "leite",
+              "quantidade": 15
+            },
+            {
+              "nome": "carne_bovina",
+              "quantidade": 10
+            },
+            {
+              "nome": "frango",
+              "quantidade": 5
+            },
+            {
+              "nome": "peixe",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "ovos",
+              "quantidade": 5
+            }
+          ],
+          "higiene": [
+            {
+              "nome": "sabonete",
+              "quantidade": 10
+            },
+            {
+              "nome": "shampoo",
+              "quantidade": 5
+            },
+            {
+              "nome": "condicionador",
+              "quantidade": 5
+            },
+            {
+              "nome": "creme_dental",
+              "quantidade": 10
+            },
+            {
+              "nome": "escova_de_dentes",
+              "quantidade": 5
+            },
+            {
+              "nome": "pasta_de_dentes",
+              "quantidade": 5
+            },
+            {
+              "nome": "desodorante",
+              "quantidade": 10
+            },
+            {
+              "nome": "papel_higienico",
+              "quantidade": 60
+            },
+            {
+              "nome": "absorvente",
+              "quantidade": 10
+            }
+          ]
+        },
+        {
+          "servicos": [
+            {
+              "nome": "Cardiologista",
+              "quantidade": "1"
+            }
+          ],
+          "medicamentos": [
+            {
+              "nome": "Hidroclorotiazida Medley 25mg",
+              "quantidade": 1
+            }
+          ],
+          "alimentos": [
+            {
+              "nome": "arroz",
+              "quantidade": 6
+            },
+            {
+              "nome": "feijao",
+              "quantidade": 3
+            },
+            {
+              "nome": "macarrao",
+              "quantidade": 3
+            },
+            {
+              "nome": "oleo",
+              "quantidade": 3
+            },
+            {
+              "nome": "sal",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "acucar",
+              "quantidade": 3
+            },
+            {
+              "nome": "cafe",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "farinha_de_trigo",
+              "quantidade": 3
+            },
+            {
+              "nome": "batata",
+              "quantidade": 9
+            },
+            {
+              "nome": "cenoura",
+              "quantidade": 3
+            },
+            {
+              "nome": "tomate",
+              "quantidade": 3
+            },
+            {
+              "nome": "cebola",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "banana",
+              "quantidade": 6
+            },
+            {
+              "nome": "laranja",
+              "quantidade": 3
+            },
+            {
+              "nome": "leite",
+              "quantidade": 9
+            },
+            {
+              "nome": "carne_bovina",
+              "quantidade": 6
+            },
+            {
+              "nome": "frango",
+              "quantidade": 3
+            },
+            {
+              "nome": "peixe",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "ovos",
+              "quantidade": 3
+            }
+          ],
+          "higiene": [
+            {
+              "nome": "sabonete",
+              "quantidade": 6
+            },
+            {
+              "nome": "shampoo",
+              "quantidade": 3
+            },
+            {
+              "nome": "condicionador",
+              "quantidade": 3
+            },
+            {
+              "nome": "creme_dental",
+              "quantidade": 6
+            },
+            {
+              "nome": "escova_de_dentes",
+              "quantidade": 3
+            },
+            {
+              "nome": "pasta_de_dentes",
+              "quantidade": 3
+            },
+            {
+              "nome": "desodorante",
+              "quantidade": 6
+            },
+            {
+              "nome": "papel_higienico",
+              "quantidade": 36
+            },
+            {
+              "nome": "absorvente",
+              "quantidade": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "demandaAtual": {
+        "genero": "Feminino",
+        "faixaetaria": "30-45",
+        "quantidade": 5,
+        "particularidades": [
+          {
+            "tipo": "Hipertensos",
+            "quantidade": 1
+          }
+        ]
+      },
+      "necessidades": [
+        {
+          "servicos": [],
+          "medicamentos": [],
+          "alimentos": [
+            {
+              "nome": "arroz",
+              "quantidade": 20
+            },
+            {
+              "nome": "feijao",
+              "quantidade": 10
+            },
+            {
+              "nome": "macarrao",
+              "quantidade": 10
+            },
+            {
+              "nome": "oleo",
+              "quantidade": 10
+            },
+            {
+              "nome": "sal",
+              "quantidade": 5
+            },
+            {
+              "nome": "acucar",
+              "quantidade": 10
+            },
+            {
+              "nome": "cafe",
+              "quantidade": 5
+            },
+            {
+              "nome": "farinha_de_trigo",
+              "quantidade": 10
+            },
+            {
+              "nome": "batata",
+              "quantidade": 30
+            },
+            {
+              "nome": "cenoura",
+              "quantidade": 10
+            },
+            {
+              "nome": "tomate",
+              "quantidade": 10
+            },
+            {
+              "nome": "cebola",
+              "quantidade": 5
+            },
+            {
+              "nome": "banana",
+              "quantidade": 20
+            },
+            {
+              "nome": "laranja",
+              "quantidade": 10
+            },
+            {
+              "nome": "leite",
+              "quantidade": 30
+            },
+            {
+              "nome": "carne_bovina",
+              "quantidade": 20
+            },
+            {
+              "nome": "frango",
+              "quantidade": 10
+            },
+            {
+              "nome": "peixe",
+              "quantidade": 5
+            },
+            {
+              "nome": "ovos",
+              "quantidade": 10
+            }
+          ],
+          "higiene": [
+            {
+              "nome": "sabonete",
+              "quantidade": 20
+            },
+            {
+              "nome": "shampoo",
+              "quantidade": 10
+            },
+            {
+              "nome": "condicionador",
+              "quantidade": 10
+            },
+            {
+              "nome": "creme_dental",
+              "quantidade": 20
+            },
+            {
+              "nome": "escova_de_dentes",
+              "quantidade": 10
+            },
+            {
+              "nome": "pasta_de_dentes",
+              "quantidade": 10
+            },
+            {
+              "nome": "desodorante",
+              "quantidade": 20
+            },
+            {
+              "nome": "papel_higienico",
+              "quantidade": 120
+            }
+          ]
+        },
+        {
+          "servicos": [
+            {
+              "nome": "Cardiologista",
+              "quantidade": "1"
+            }
+          ],
+          "medicamentos": [
+            {
+              "nome": "Hidroclorotiazida Medley 25mg",
+              "quantidade": 1
+            }
+          ],
+          "alimentos": [
+            {
+              "nome": "arroz",
+              "quantidade": 10
+            },
+            {
+              "nome": "feijao",
+              "quantidade": 5
+            },
+            {
+              "nome": "macarrao",
+              "quantidade": 5
+            },
+            {
+              "nome": "oleo",
+              "quantidade": 5
+            },
+            {
+              "nome": "sal",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "acucar",
+              "quantidade": 5
+            },
+            {
+              "nome": "cafe",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "farinha_de_trigo",
+              "quantidade": 5
+            },
+            {
+              "nome": "batata",
+              "quantidade": 15
+            },
+            {
+              "nome": "cenoura",
+              "quantidade": 5
+            },
+            {
+              "nome": "tomate",
+              "quantidade": 5
+            },
+            {
+              "nome": "cebola",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "banana",
+              "quantidade": 10
+            },
+            {
+              "nome": "laranja",
+              "quantidade": 5
+            },
+            {
+              "nome": "leite",
+              "quantidade": 15
+            },
+            {
+              "nome": "carne_bovina",
+              "quantidade": 10
+            },
+            {
+              "nome": "frango",
+              "quantidade": 5
+            },
+            {
+              "nome": "peixe",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "ovos",
+              "quantidade": 5
+            }
+          ],
+          "higiene": [
+            {
+              "nome": "sabonete",
+              "quantidade": 10
+            },
+            {
+              "nome": "shampoo",
+              "quantidade": 5
+            },
+            {
+              "nome": "condicionador",
+              "quantidade": 5
+            },
+            {
+              "nome": "creme_dental",
+              "quantidade": 10
+            },
+            {
+              "nome": "escova_de_dentes",
+              "quantidade": 5
+            },
+            {
+              "nome": "pasta_de_dentes",
+              "quantidade": 5
+            },
+            {
+              "nome": "desodorante",
+              "quantidade": 10
+            },
+            {
+              "nome": "papel_higienico",
+              "quantidade": 60
+            },
+            {
+              "nome": "absorvente",
+              "quantidade": 10
+            }
+          ]
+        },
+        {
+          "servicos": [
+            {
+              "nome": "Cardiologista",
+              "quantidade": "1"
+            }
+          ],
+          "medicamentos": [
+            {
+              "nome": "Hidroclorotiazida Medley 25mg",
+              "quantidade": 1
+            }
+          ],
+          "alimentos": [
+            {
+              "nome": "arroz",
+              "quantidade": 6
+            },
+            {
+              "nome": "feijao",
+              "quantidade": 3
+            },
+            {
+              "nome": "macarrao",
+              "quantidade": 3
+            },
+            {
+              "nome": "oleo",
+              "quantidade": 3
+            },
+            {
+              "nome": "sal",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "acucar",
+              "quantidade": 3
+            },
+            {
+              "nome": "cafe",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "farinha_de_trigo",
+              "quantidade": 3
+            },
+            {
+              "nome": "batata",
+              "quantidade": 9
+            },
+            {
+              "nome": "cenoura",
+              "quantidade": 3
+            },
+            {
+              "nome": "tomate",
+              "quantidade": 3
+            },
+            {
+              "nome": "cebola",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "banana",
+              "quantidade": 6
+            },
+            {
+              "nome": "laranja",
+              "quantidade": 3
+            },
+            {
+              "nome": "leite",
+              "quantidade": 9
+            },
+            {
+              "nome": "carne_bovina",
+              "quantidade": 6
+            },
+            {
+              "nome": "frango",
+              "quantidade": 3
+            },
+            {
+              "nome": "peixe",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "ovos",
+              "quantidade": 3
+            }
+          ],
+          "higiene": [
+            {
+              "nome": "sabonete",
+              "quantidade": 6
+            },
+            {
+              "nome": "shampoo",
+              "quantidade": 3
+            },
+            {
+              "nome": "condicionador",
+              "quantidade": 3
+            },
+            {
+              "nome": "creme_dental",
+              "quantidade": 6
+            },
+            {
+              "nome": "escova_de_dentes",
+              "quantidade": 3
+            },
+            {
+              "nome": "pasta_de_dentes",
+              "quantidade": 3
+            },
+            {
+              "nome": "desodorante",
+              "quantidade": 6
+            },
+            {
+              "nome": "papel_higienico",
+              "quantidade": 36
+            },
+            {
+              "nome": "absorvente",
+              "quantidade": 6
+            }
+          ]
+        },
+        {
+          "servicos": [],
+          "medicamentos": [],
+          "alimentos": [
+            {
+              "nome": "arroz",
+              "quantidade": 20
+            },
+            {
+              "nome": "feijao",
+              "quantidade": 10
+            },
+            {
+              "nome": "macarrao",
+              "quantidade": 10
+            },
+            {
+              "nome": "oleo",
+              "quantidade": 10
+            },
+            {
+              "nome": "sal",
+              "quantidade": 5
+            },
+            {
+              "nome": "acucar",
+              "quantidade": 10
+            },
+            {
+              "nome": "cafe",
+              "quantidade": 5
+            },
+            {
+              "nome": "farinha_de_trigo",
+              "quantidade": 10
+            },
+            {
+              "nome": "batata",
+              "quantidade": 30
+            },
+            {
+              "nome": "cenoura",
+              "quantidade": 10
+            },
+            {
+              "nome": "tomate",
+              "quantidade": 10
+            },
+            {
+              "nome": "cebola",
+              "quantidade": 5
+            },
+            {
+              "nome": "banana",
+              "quantidade": 20
+            },
+            {
+              "nome": "laranja",
+              "quantidade": 10
+            },
+            {
+              "nome": "leite",
+              "quantidade": 30
+            },
+            {
+              "nome": "carne_bovina",
+              "quantidade": 20
+            },
+            {
+              "nome": "frango",
+              "quantidade": 10
+            },
+            {
+              "nome": "peixe",
+              "quantidade": 5
+            },
+            {
+              "nome": "ovos",
+              "quantidade": 10
+            }
+          ],
+          "higiene": [
+            {
+              "nome": "sabonete",
+              "quantidade": 20
+            },
+            {
+              "nome": "shampoo",
+              "quantidade": 10
+            },
+            {
+              "nome": "condicionador",
+              "quantidade": 10
+            },
+            {
+              "nome": "creme_dental",
+              "quantidade": 20
+            },
+            {
+              "nome": "escova_de_dentes",
+              "quantidade": 10
+            },
+            {
+              "nome": "pasta_de_dentes",
+              "quantidade": 10
+            },
+            {
+              "nome": "desodorante",
+              "quantidade": 20
+            },
+            {
+              "nome": "papel_higienico",
+              "quantidade": 120
+            }
+          ]
+        },
+        {
+          "servicos": [
+            {
+              "nome": "Cardiologista",
+              "quantidade": "1"
+            }
+          ],
+          "medicamentos": [
+            {
+              "nome": "Hidroclorotiazida Medley 25mg",
+              "quantidade": 1
+            }
+          ],
+          "alimentos": [
+            {
+              "nome": "arroz",
+              "quantidade": 10
+            },
+            {
+              "nome": "feijao",
+              "quantidade": 5
+            },
+            {
+              "nome": "macarrao",
+              "quantidade": 5
+            },
+            {
+              "nome": "oleo",
+              "quantidade": 5
+            },
+            {
+              "nome": "sal",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "acucar",
+              "quantidade": 5
+            },
+            {
+              "nome": "cafe",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "farinha_de_trigo",
+              "quantidade": 5
+            },
+            {
+              "nome": "batata",
+              "quantidade": 15
+            },
+            {
+              "nome": "cenoura",
+              "quantidade": 5
+            },
+            {
+              "nome": "tomate",
+              "quantidade": 5
+            },
+            {
+              "nome": "cebola",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "banana",
+              "quantidade": 10
+            },
+            {
+              "nome": "laranja",
+              "quantidade": 5
+            },
+            {
+              "nome": "leite",
+              "quantidade": 15
+            },
+            {
+              "nome": "carne_bovina",
+              "quantidade": 10
+            },
+            {
+              "nome": "frango",
+              "quantidade": 5
+            },
+            {
+              "nome": "peixe",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "ovos",
+              "quantidade": 5
+            }
+          ],
+          "higiene": [
+            {
+              "nome": "sabonete",
+              "quantidade": 10
+            },
+            {
+              "nome": "shampoo",
+              "quantidade": 5
+            },
+            {
+              "nome": "condicionador",
+              "quantidade": 5
+            },
+            {
+              "nome": "creme_dental",
+              "quantidade": 10
+            },
+            {
+              "nome": "escova_de_dentes",
+              "quantidade": 5
+            },
+            {
+              "nome": "pasta_de_dentes",
+              "quantidade": 5
+            },
+            {
+              "nome": "desodorante",
+              "quantidade": 10
+            },
+            {
+              "nome": "papel_higienico",
+              "quantidade": 60
+            },
+            {
+              "nome": "absorvente",
+              "quantidade": 10
+            }
+          ]
+        },
+        {
+          "servicos": [
+            {
+              "nome": "Cardiologista",
+              "quantidade": "1"
+            }
+          ],
+          "medicamentos": [
+            {
+              "nome": "Hidroclorotiazida Medley 25mg",
+              "quantidade": 1
+            }
+          ],
+          "alimentos": [
+            {
+              "nome": "arroz",
+              "quantidade": 6
+            },
+            {
+              "nome": "feijao",
+              "quantidade": 3
+            },
+            {
+              "nome": "macarrao",
+              "quantidade": 3
+            },
+            {
+              "nome": "oleo",
+              "quantidade": 3
+            },
+            {
+              "nome": "sal",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "acucar",
+              "quantidade": 3
+            },
+            {
+              "nome": "cafe",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "farinha_de_trigo",
+              "quantidade": 3
+            },
+            {
+              "nome": "batata",
+              "quantidade": 9
+            },
+            {
+              "nome": "cenoura",
+              "quantidade": 3
+            },
+            {
+              "nome": "tomate",
+              "quantidade": 3
+            },
+            {
+              "nome": "cebola",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "banana",
+              "quantidade": 6
+            },
+            {
+              "nome": "laranja",
+              "quantidade": 3
+            },
+            {
+              "nome": "leite",
+              "quantidade": 9
+            },
+            {
+              "nome": "carne_bovina",
+              "quantidade": 6
+            },
+            {
+              "nome": "frango",
+              "quantidade": 3
+            },
+            {
+              "nome": "peixe",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "ovos",
+              "quantidade": 3
+            }
+          ],
+          "higiene": [
+            {
+              "nome": "sabonete",
+              "quantidade": 6
+            },
+            {
+              "nome": "shampoo",
+              "quantidade": 3
+            },
+            {
+              "nome": "condicionador",
+              "quantidade": 3
+            },
+            {
+              "nome": "creme_dental",
+              "quantidade": 6
+            },
+            {
+              "nome": "escova_de_dentes",
+              "quantidade": 3
+            },
+            {
+              "nome": "pasta_de_dentes",
+              "quantidade": 3
+            },
+            {
+              "nome": "desodorante",
+              "quantidade": 6
+            },
+            {
+              "nome": "papel_higienico",
+              "quantidade": 36
+            },
+            {
+              "nome": "absorvente",
+              "quantidade": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "demandaAtual": {
+        "genero": "Feminino",
+        "faixaetaria": "18-25",
+        "quantidade": 3,
+        "particularidades": [
+          {
+            "tipo": "Cadeirantes",
+            "quantidade": 1
+          },
+          {
+            "tipo": "Hipertensos",
+            "quantidade": 1
+          }
+        ]
+      },
+      "necessidades": [
+        {
+          "servicos": [],
+          "medicamentos": [],
+          "alimentos": [
+            {
+              "nome": "arroz",
+              "quantidade": 20
+            },
+            {
+              "nome": "feijao",
+              "quantidade": 10
+            },
+            {
+              "nome": "macarrao",
+              "quantidade": 10
+            },
+            {
+              "nome": "oleo",
+              "quantidade": 10
+            },
+            {
+              "nome": "sal",
+              "quantidade": 5
+            },
+            {
+              "nome": "acucar",
+              "quantidade": 10
+            },
+            {
+              "nome": "cafe",
+              "quantidade": 5
+            },
+            {
+              "nome": "farinha_de_trigo",
+              "quantidade": 10
+            },
+            {
+              "nome": "batata",
+              "quantidade": 30
+            },
+            {
+              "nome": "cenoura",
+              "quantidade": 10
+            },
+            {
+              "nome": "tomate",
+              "quantidade": 10
+            },
+            {
+              "nome": "cebola",
+              "quantidade": 5
+            },
+            {
+              "nome": "banana",
+              "quantidade": 20
+            },
+            {
+              "nome": "laranja",
+              "quantidade": 10
+            },
+            {
+              "nome": "leite",
+              "quantidade": 30
+            },
+            {
+              "nome": "carne_bovina",
+              "quantidade": 20
+            },
+            {
+              "nome": "frango",
+              "quantidade": 10
+            },
+            {
+              "nome": "peixe",
+              "quantidade": 5
+            },
+            {
+              "nome": "ovos",
+              "quantidade": 10
+            }
+          ],
+          "higiene": [
+            {
+              "nome": "sabonete",
+              "quantidade": 20
+            },
+            {
+              "nome": "shampoo",
+              "quantidade": 10
+            },
+            {
+              "nome": "condicionador",
+              "quantidade": 10
+            },
+            {
+              "nome": "creme_dental",
+              "quantidade": 20
+            },
+            {
+              "nome": "escova_de_dentes",
+              "quantidade": 10
+            },
+            {
+              "nome": "pasta_de_dentes",
+              "quantidade": 10
+            },
+            {
+              "nome": "desodorante",
+              "quantidade": 20
+            },
+            {
+              "nome": "papel_higienico",
+              "quantidade": 120
+            }
+          ]
+        },
+        {
+          "servicos": [
+            {
+              "nome": "Cardiologista",
+              "quantidade": "1"
+            }
+          ],
+          "medicamentos": [
+            {
+              "nome": "Hidroclorotiazida Medley 25mg",
+              "quantidade": 1
+            }
+          ],
+          "alimentos": [
+            {
+              "nome": "arroz",
+              "quantidade": 10
+            },
+            {
+              "nome": "feijao",
+              "quantidade": 5
+            },
+            {
+              "nome": "macarrao",
+              "quantidade": 5
+            },
+            {
+              "nome": "oleo",
+              "quantidade": 5
+            },
+            {
+              "nome": "sal",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "acucar",
+              "quantidade": 5
+            },
+            {
+              "nome": "cafe",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "farinha_de_trigo",
+              "quantidade": 5
+            },
+            {
+              "nome": "batata",
+              "quantidade": 15
+            },
+            {
+              "nome": "cenoura",
+              "quantidade": 5
+            },
+            {
+              "nome": "tomate",
+              "quantidade": 5
+            },
+            {
+              "nome": "cebola",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "banana",
+              "quantidade": 10
+            },
+            {
+              "nome": "laranja",
+              "quantidade": 5
+            },
+            {
+              "nome": "leite",
+              "quantidade": 15
+            },
+            {
+              "nome": "carne_bovina",
+              "quantidade": 10
+            },
+            {
+              "nome": "frango",
+              "quantidade": 5
+            },
+            {
+              "nome": "peixe",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "ovos",
+              "quantidade": 5
+            }
+          ],
+          "higiene": [
+            {
+              "nome": "sabonete",
+              "quantidade": 10
+            },
+            {
+              "nome": "shampoo",
+              "quantidade": 5
+            },
+            {
+              "nome": "condicionador",
+              "quantidade": 5
+            },
+            {
+              "nome": "creme_dental",
+              "quantidade": 10
+            },
+            {
+              "nome": "escova_de_dentes",
+              "quantidade": 5
+            },
+            {
+              "nome": "pasta_de_dentes",
+              "quantidade": 5
+            },
+            {
+              "nome": "desodorante",
+              "quantidade": 10
+            },
+            {
+              "nome": "papel_higienico",
+              "quantidade": 60
+            },
+            {
+              "nome": "absorvente",
+              "quantidade": 10
+            }
+          ]
+        },
+        {
+          "servicos": [
+            {
+              "nome": "Cardiologista",
+              "quantidade": "1"
+            }
+          ],
+          "medicamentos": [
+            {
+              "nome": "Hidroclorotiazida Medley 25mg",
+              "quantidade": 1
+            }
+          ],
+          "alimentos": [
+            {
+              "nome": "arroz",
+              "quantidade": 6
+            },
+            {
+              "nome": "feijao",
+              "quantidade": 3
+            },
+            {
+              "nome": "macarrao",
+              "quantidade": 3
+            },
+            {
+              "nome": "oleo",
+              "quantidade": 3
+            },
+            {
+              "nome": "sal",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "acucar",
+              "quantidade": 3
+            },
+            {
+              "nome": "cafe",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "farinha_de_trigo",
+              "quantidade": 3
+            },
+            {
+              "nome": "batata",
+              "quantidade": 9
+            },
+            {
+              "nome": "cenoura",
+              "quantidade": 3
+            },
+            {
+              "nome": "tomate",
+              "quantidade": 3
+            },
+            {
+              "nome": "cebola",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "banana",
+              "quantidade": 6
+            },
+            {
+              "nome": "laranja",
+              "quantidade": 3
+            },
+            {
+              "nome": "leite",
+              "quantidade": 9
+            },
+            {
+              "nome": "carne_bovina",
+              "quantidade": 6
+            },
+            {
+              "nome": "frango",
+              "quantidade": 3
+            },
+            {
+              "nome": "peixe",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "ovos",
+              "quantidade": 3
+            }
+          ],
+          "higiene": [
+            {
+              "nome": "sabonete",
+              "quantidade": 6
+            },
+            {
+              "nome": "shampoo",
+              "quantidade": 3
+            },
+            {
+              "nome": "condicionador",
+              "quantidade": 3
+            },
+            {
+              "nome": "creme_dental",
+              "quantidade": 6
+            },
+            {
+              "nome": "escova_de_dentes",
+              "quantidade": 3
+            },
+            {
+              "nome": "pasta_de_dentes",
+              "quantidade": 3
+            },
+            {
+              "nome": "desodorante",
+              "quantidade": 6
+            },
+            {
+              "nome": "papel_higienico",
+              "quantidade": 36
+            },
+            {
+              "nome": "absorvente",
+              "quantidade": 6
+            }
+          ]
+        },
+        {
+          "servicos": [],
+          "medicamentos": [],
+          "alimentos": [
+            {
+              "nome": "arroz",
+              "quantidade": 20
+            },
+            {
+              "nome": "feijao",
+              "quantidade": 10
+            },
+            {
+              "nome": "macarrao",
+              "quantidade": 10
+            },
+            {
+              "nome": "oleo",
+              "quantidade": 10
+            },
+            {
+              "nome": "sal",
+              "quantidade": 5
+            },
+            {
+              "nome": "acucar",
+              "quantidade": 10
+            },
+            {
+              "nome": "cafe",
+              "quantidade": 5
+            },
+            {
+              "nome": "farinha_de_trigo",
+              "quantidade": 10
+            },
+            {
+              "nome": "batata",
+              "quantidade": 30
+            },
+            {
+              "nome": "cenoura",
+              "quantidade": 10
+            },
+            {
+              "nome": "tomate",
+              "quantidade": 10
+            },
+            {
+              "nome": "cebola",
+              "quantidade": 5
+            },
+            {
+              "nome": "banana",
+              "quantidade": 20
+            },
+            {
+              "nome": "laranja",
+              "quantidade": 10
+            },
+            {
+              "nome": "leite",
+              "quantidade": 30
+            },
+            {
+              "nome": "carne_bovina",
+              "quantidade": 20
+            },
+            {
+              "nome": "frango",
+              "quantidade": 10
+            },
+            {
+              "nome": "peixe",
+              "quantidade": 5
+            },
+            {
+              "nome": "ovos",
+              "quantidade": 10
+            }
+          ],
+          "higiene": [
+            {
+              "nome": "sabonete",
+              "quantidade": 20
+            },
+            {
+              "nome": "shampoo",
+              "quantidade": 10
+            },
+            {
+              "nome": "condicionador",
+              "quantidade": 10
+            },
+            {
+              "nome": "creme_dental",
+              "quantidade": 20
+            },
+            {
+              "nome": "escova_de_dentes",
+              "quantidade": 10
+            },
+            {
+              "nome": "pasta_de_dentes",
+              "quantidade": 10
+            },
+            {
+              "nome": "desodorante",
+              "quantidade": 20
+            },
+            {
+              "nome": "papel_higienico",
+              "quantidade": 120
+            }
+          ]
+        },
+        {
+          "servicos": [
+            {
+              "nome": "Cardiologista",
+              "quantidade": "1"
+            }
+          ],
+          "medicamentos": [
+            {
+              "nome": "Hidroclorotiazida Medley 25mg",
+              "quantidade": 1
+            }
+          ],
+          "alimentos": [
+            {
+              "nome": "arroz",
+              "quantidade": 10
+            },
+            {
+              "nome": "feijao",
+              "quantidade": 5
+            },
+            {
+              "nome": "macarrao",
+              "quantidade": 5
+            },
+            {
+              "nome": "oleo",
+              "quantidade": 5
+            },
+            {
+              "nome": "sal",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "acucar",
+              "quantidade": 5
+            },
+            {
+              "nome": "cafe",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "farinha_de_trigo",
+              "quantidade": 5
+            },
+            {
+              "nome": "batata",
+              "quantidade": 15
+            },
+            {
+              "nome": "cenoura",
+              "quantidade": 5
+            },
+            {
+              "nome": "tomate",
+              "quantidade": 5
+            },
+            {
+              "nome": "cebola",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "banana",
+              "quantidade": 10
+            },
+            {
+              "nome": "laranja",
+              "quantidade": 5
+            },
+            {
+              "nome": "leite",
+              "quantidade": 15
+            },
+            {
+              "nome": "carne_bovina",
+              "quantidade": 10
+            },
+            {
+              "nome": "frango",
+              "quantidade": 5
+            },
+            {
+              "nome": "peixe",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "ovos",
+              "quantidade": 5
+            }
+          ],
+          "higiene": [
+            {
+              "nome": "sabonete",
+              "quantidade": 10
+            },
+            {
+              "nome": "shampoo",
+              "quantidade": 5
+            },
+            {
+              "nome": "condicionador",
+              "quantidade": 5
+            },
+            {
+              "nome": "creme_dental",
+              "quantidade": 10
+            },
+            {
+              "nome": "escova_de_dentes",
+              "quantidade": 5
+            },
+            {
+              "nome": "pasta_de_dentes",
+              "quantidade": 5
+            },
+            {
+              "nome": "desodorante",
+              "quantidade": 10
+            },
+            {
+              "nome": "papel_higienico",
+              "quantidade": 60
+            },
+            {
+              "nome": "absorvente",
+              "quantidade": 10
+            }
+          ]
+        },
+        {
+          "servicos": [
+            {
+              "nome": "Cardiologista",
+              "quantidade": "1"
+            }
+          ],
+          "medicamentos": [
+            {
+              "nome": "Hidroclorotiazida Medley 25mg",
+              "quantidade": 1
+            }
+          ],
+          "alimentos": [
+            {
+              "nome": "arroz",
+              "quantidade": 6
+            },
+            {
+              "nome": "feijao",
+              "quantidade": 3
+            },
+            {
+              "nome": "macarrao",
+              "quantidade": 3
+            },
+            {
+              "nome": "oleo",
+              "quantidade": 3
+            },
+            {
+              "nome": "sal",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "acucar",
+              "quantidade": 3
+            },
+            {
+              "nome": "cafe",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "farinha_de_trigo",
+              "quantidade": 3
+            },
+            {
+              "nome": "batata",
+              "quantidade": 9
+            },
+            {
+              "nome": "cenoura",
+              "quantidade": 3
+            },
+            {
+              "nome": "tomate",
+              "quantidade": 3
+            },
+            {
+              "nome": "cebola",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "banana",
+              "quantidade": 6
+            },
+            {
+              "nome": "laranja",
+              "quantidade": 3
+            },
+            {
+              "nome": "leite",
+              "quantidade": 9
+            },
+            {
+              "nome": "carne_bovina",
+              "quantidade": 6
+            },
+            {
+              "nome": "frango",
+              "quantidade": 3
+            },
+            {
+              "nome": "peixe",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "ovos",
+              "quantidade": 3
+            }
+          ],
+          "higiene": [
+            {
+              "nome": "sabonete",
+              "quantidade": 6
+            },
+            {
+              "nome": "shampoo",
+              "quantidade": 3
+            },
+            {
+              "nome": "condicionador",
+              "quantidade": 3
+            },
+            {
+              "nome": "creme_dental",
+              "quantidade": 6
+            },
+            {
+              "nome": "escova_de_dentes",
+              "quantidade": 3
+            },
+            {
+              "nome": "pasta_de_dentes",
+              "quantidade": 3
+            },
+            {
+              "nome": "desodorante",
+              "quantidade": 6
+            },
+            {
+              "nome": "papel_higienico",
+              "quantidade": 36
+            },
+            {
+              "nome": "absorvente",
+              "quantidade": 6
+            }
+          ]
+        }
+      ]
+    }
+  ]
+},
+{
+  "empresaId": "OUTRAONG",
+  "demandas": [
+    {
+      "id": 0,
+      "demandaAtual": {
+        "genero": "Masculino",
+        "faixaetaria": "18-30",
+        "quantidade": 10,
+        "particularidades": [
+          {
+            "tipo": "Cadeirantes",
+            "quantidade": 2
+          }
+        ]
+      },
+      "necessidades": [
+        {
+          "servicos": [],
+          "medicamentos": [],
+          "alimentos": [
+            {
+              "nome": "arroz",
+              "quantidade": 20
+            },
+            {
+              "nome": "feijao",
+              "quantidade": 10
+            },
+            {
+              "nome": "macarrao",
+              "quantidade": 10
+            },
+            {
+              "nome": "oleo",
+              "quantidade": 10
+            },
+            {
+              "nome": "sal",
+              "quantidade": 5
+            },
+            {
+              "nome": "acucar",
+              "quantidade": 10
+            },
+            {
+              "nome": "cafe",
+              "quantidade": 5
+            },
+            {
+              "nome": "farinha_de_trigo",
+              "quantidade": 10
+            },
+            {
+              "nome": "batata",
+              "quantidade": 30
+            },
+            {
+              "nome": "cenoura",
+              "quantidade": 10
+            },
+            {
+              "nome": "tomate",
+              "quantidade": 10
+            },
+            {
+              "nome": "cebola",
+              "quantidade": 5
+            },
+            {
+              "nome": "banana",
+              "quantidade": 20
+            },
+            {
+              "nome": "laranja",
+              "quantidade": 10
+            },
+            {
+              "nome": "leite",
+              "quantidade": 30
+            },
+            {
+              "nome": "carne_bovina",
+              "quantidade": 20
+            },
+            {
+              "nome": "frango",
+              "quantidade": 10
+            },
+            {
+              "nome": "peixe",
+              "quantidade": 5
+            },
+            {
+              "nome": "ovos",
+              "quantidade": 10
+            }
+          ],
+          "higiene": [
+            {
+              "nome": "sabonete",
+              "quantidade": 20
+            },
+            {
+              "nome": "shampoo",
+              "quantidade": 10
+            },
+            {
+              "nome": "condicionador",
+              "quantidade": 10
+            },
+            {
+              "nome": "creme_dental",
+              "quantidade": 20
+            },
+            {
+              "nome": "escova_de_dentes",
+              "quantidade": 10
+            },
+            {
+              "nome": "pasta_de_dentes",
+              "quantidade": 10
+            },
+            {
+              "nome": "desodorante",
+              "quantidade": 20
+            },
+            {
+              "nome": "papel_higienico",
+              "quantidade": 120
+            }
+          ]
+        },
+        {
+          "servicos": [
+            {
+              "nome": "Cardiologista",
+              "quantidade": "1"
+            }
+          ],
+          "medicamentos": [
+            {
+              "nome": "Hidroclorotiazida Medley 25mg",
+              "quantidade": 1
+            }
+          ],
+          "alimentos": [
+            {
+              "nome": "arroz",
+              "quantidade": 10
+            },
+            {
+              "nome": "feijao",
+              "quantidade": 5
+            },
+            {
+              "nome": "macarrao",
+              "quantidade": 5
+            },
+            {
+              "nome": "oleo",
+              "quantidade": 5
+            },
+            {
+              "nome": "sal",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "acucar",
+              "quantidade": 5
+            },
+            {
+              "nome": "cafe",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "farinha_de_trigo",
+              "quantidade": 5
+            },
+            {
+              "nome": "batata",
+              "quantidade": 15
+            },
+            {
+              "nome": "cenoura",
+              "quantidade": 5
+            },
+            {
+              "nome": "tomate",
+              "quantidade": 5
+            },
+            {
+              "nome": "cebola",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "banana",
+              "quantidade": 10
+            },
+            {
+              "nome": "laranja",
+              "quantidade": 5
+            },
+            {
+              "nome": "leite",
+              "quantidade": 15
+            },
+            {
+              "nome": "carne_bovina",
+              "quantidade": 10
+            },
+            {
+              "nome": "frango",
+              "quantidade": 5
+            },
+            {
+              "nome": "peixe",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "ovos",
+              "quantidade": 5
+            }
+          ],
+          "higiene": [
+            {
+              "nome": "sabonete",
+              "quantidade": 10
+            },
+            {
+              "nome": "shampoo",
+              "quantidade": 5
+            },
+            {
+              "nome": "condicionador",
+              "quantidade": 5
+            },
+            {
+              "nome": "creme_dental",
+              "quantidade": 10
+            },
+            {
+              "nome": "escova_de_dentes",
+              "quantidade": 5
+            },
+            {
+              "nome": "pasta_de_dentes",
+              "quantidade": 5
+            },
+            {
+              "nome": "desodorante",
+              "quantidade": 10
+            },
+            {
+              "nome": "papel_higienico",
+              "quantidade": 60
+            },
+            {
+              "nome": "absorvente",
+              "quantidade": 10
+            }
+          ]
+        },
+        {
+          "servicos": [
+            {
+              "nome": "Cardiologista",
+              "quantidade": "1"
+            }
+          ],
+          "medicamentos": [
+            {
+              "nome": "Hidroclorotiazida Medley 25mg",
+              "quantidade": 1
+            }
+          ],
+          "alimentos": [
+            {
+              "nome": "arroz",
+              "quantidade": 6
+            },
+            {
+              "nome": "feijao",
+              "quantidade": 3
+            },
+            {
+              "nome": "macarrao",
+              "quantidade": 3
+            },
+            {
+              "nome": "oleo",
+              "quantidade": 3
+            },
+            {
+              "nome": "sal",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "acucar",
+              "quantidade": 3
+            },
+            {
+              "nome": "cafe",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "farinha_de_trigo",
+              "quantidade": 3
+            },
+            {
+              "nome": "batata",
+              "quantidade": 9
+            },
+            {
+              "nome": "cenoura",
+              "quantidade": 3
+            },
+            {
+              "nome": "tomate",
+              "quantidade": 3
+            },
+            {
+              "nome": "cebola",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "banana",
+              "quantidade": 6
+            },
+            {
+              "nome": "laranja",
+              "quantidade": 3
+            },
+            {
+              "nome": "leite",
+              "quantidade": 9
+            },
+            {
+              "nome": "carne_bovina",
+              "quantidade": 6
+            },
+            {
+              "nome": "frango",
+              "quantidade": 3
+            },
+            {
+              "nome": "peixe",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "ovos",
+              "quantidade": 3
+            }
+          ],
+          "higiene": [
+            {
+              "nome": "sabonete",
+              "quantidade": 6
+            },
+            {
+              "nome": "shampoo",
+              "quantidade": 3
+            },
+            {
+              "nome": "condicionador",
+              "quantidade": 3
+            },
+            {
+              "nome": "creme_dental",
+              "quantidade": 6
+            },
+            {
+              "nome": "escova_de_dentes",
+              "quantidade": 3
+            },
+            {
+              "nome": "pasta_de_dentes",
+              "quantidade": 3
+            },
+            {
+              "nome": "desodorante",
+              "quantidade": 6
+            },
+            {
+              "nome": "papel_higienico",
+              "quantidade": 36
+            },
+            {
+              "nome": "absorvente",
+              "quantidade": 6
+            }
+          ]
+        },
+        {
+          "servicos": [],
+          "medicamentos": [],
+          "alimentos": [
+            {
+              "nome": "arroz",
+              "quantidade": 20
+            },
+            {
+              "nome": "feijao",
+              "quantidade": 10
+            },
+            {
+              "nome": "macarrao",
+              "quantidade": 10
+            },
+            {
+              "nome": "oleo",
+              "quantidade": 10
+            },
+            {
+              "nome": "sal",
+              "quantidade": 5
+            },
+            {
+              "nome": "acucar",
+              "quantidade": 10
+            },
+            {
+              "nome": "cafe",
+              "quantidade": 5
+            },
+            {
+              "nome": "farinha_de_trigo",
+              "quantidade": 10
+            },
+            {
+              "nome": "batata",
+              "quantidade": 30
+            },
+            {
+              "nome": "cenoura",
+              "quantidade": 10
+            },
+            {
+              "nome": "tomate",
+              "quantidade": 10
+            },
+            {
+              "nome": "cebola",
+              "quantidade": 5
+            },
+            {
+              "nome": "banana",
+              "quantidade": 20
+            },
+            {
+              "nome": "laranja",
+              "quantidade": 10
+            },
+            {
+              "nome": "leite",
+              "quantidade": 30
+            },
+            {
+              "nome": "carne_bovina",
+              "quantidade": 20
+            },
+            {
+              "nome": "frango",
+              "quantidade": 10
+            },
+            {
+              "nome": "peixe",
+              "quantidade": 5
+            },
+            {
+              "nome": "ovos",
+              "quantidade": 10
+            }
+          ],
+          "higiene": [
+            {
+              "nome": "sabonete",
+              "quantidade": 20
+            },
+            {
+              "nome": "shampoo",
+              "quantidade": 10
+            },
+            {
+              "nome": "condicionador",
+              "quantidade": 10
+            },
+            {
+              "nome": "creme_dental",
+              "quantidade": 20
+            },
+            {
+              "nome": "escova_de_dentes",
+              "quantidade": 10
+            },
+            {
+              "nome": "pasta_de_dentes",
+              "quantidade": 10
+            },
+            {
+              "nome": "desodorante",
+              "quantidade": 20
+            },
+            {
+              "nome": "papel_higienico",
+              "quantidade": 120
+            }
+          ]
+        },
+        {
+          "servicos": [
+            {
+              "nome": "Cardiologista",
+              "quantidade": "1"
+            }
+          ],
+          "medicamentos": [
+            {
+              "nome": "Hidroclorotiazida Medley 25mg",
+              "quantidade": 1
+            }
+          ],
+          "alimentos": [
+            {
+              "nome": "arroz",
+              "quantidade": 10
+            },
+            {
+              "nome": "feijao",
+              "quantidade": 5
+            },
+            {
+              "nome": "macarrao",
+              "quantidade": 5
+            },
+            {
+              "nome": "oleo",
+              "quantidade": 5
+            },
+            {
+              "nome": "sal",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "acucar",
+              "quantidade": 5
+            },
+            {
+              "nome": "cafe",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "farinha_de_trigo",
+              "quantidade": 5
+            },
+            {
+              "nome": "batata",
+              "quantidade": 15
+            },
+            {
+              "nome": "cenoura",
+              "quantidade": 5
+            },
+            {
+              "nome": "tomate",
+              "quantidade": 5
+            },
+            {
+              "nome": "cebola",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "banana",
+              "quantidade": 10
+            },
+            {
+              "nome": "laranja",
+              "quantidade": 5
+            },
+            {
+              "nome": "leite",
+              "quantidade": 15
+            },
+            {
+              "nome": "carne_bovina",
+              "quantidade": 10
+            },
+            {
+              "nome": "frango",
+              "quantidade": 5
+            },
+            {
+              "nome": "peixe",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "ovos",
+              "quantidade": 5
+            }
+          ],
+          "higiene": [
+            {
+              "nome": "sabonete",
+              "quantidade": 10
+            },
+            {
+              "nome": "shampoo",
+              "quantidade": 5
+            },
+            {
+              "nome": "condicionador",
+              "quantidade": 5
+            },
+            {
+              "nome": "creme_dental",
+              "quantidade": 10
+            },
+            {
+              "nome": "escova_de_dentes",
+              "quantidade": 5
+            },
+            {
+              "nome": "pasta_de_dentes",
+              "quantidade": 5
+            },
+            {
+              "nome": "desodorante",
+              "quantidade": 10
+            },
+            {
+              "nome": "papel_higienico",
+              "quantidade": 60
+            },
+            {
+              "nome": "absorvente",
+              "quantidade": 10
+            }
+          ]
+        },
+        {
+          "servicos": [
+            {
+              "nome": "Cardiologista",
+              "quantidade": "1"
+            }
+          ],
+          "medicamentos": [
+            {
+              "nome": "Hidroclorotiazida Medley 25mg",
+              "quantidade": 1
+            }
+          ],
+          "alimentos": [
+            {
+              "nome": "arroz",
+              "quantidade": 6
+            },
+            {
+              "nome": "feijao",
+              "quantidade": 3
+            },
+            {
+              "nome": "macarrao",
+              "quantidade": 3
+            },
+            {
+              "nome": "oleo",
+              "quantidade": 3
+            },
+            {
+              "nome": "sal",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "acucar",
+              "quantidade": 3
+            },
+            {
+              "nome": "cafe",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "farinha_de_trigo",
+              "quantidade": 3
+            },
+            {
+              "nome": "batata",
+              "quantidade": 9
+            },
+            {
+              "nome": "cenoura",
+              "quantidade": 3
+            },
+            {
+              "nome": "tomate",
+              "quantidade": 3
+            },
+            {
+              "nome": "cebola",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "banana",
+              "quantidade": 6
+            },
+            {
+              "nome": "laranja",
+              "quantidade": 3
+            },
+            {
+              "nome": "leite",
+              "quantidade": 9
+            },
+            {
+              "nome": "carne_bovina",
+              "quantidade": 6
+            },
+            {
+              "nome": "frango",
+              "quantidade": 3
+            },
+            {
+              "nome": "peixe",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "ovos",
+              "quantidade": 3
+            }
+          ],
+          "higiene": [
+            {
+              "nome": "sabonete",
+              "quantidade": 6
+            },
+            {
+              "nome": "shampoo",
+              "quantidade": 3
+            },
+            {
+              "nome": "condicionador",
+              "quantidade": 3
+            },
+            {
+              "nome": "creme_dental",
+              "quantidade": 6
+            },
+            {
+              "nome": "escova_de_dentes",
+              "quantidade": 3
+            },
+            {
+              "nome": "pasta_de_dentes",
+              "quantidade": 3
+            },
+            {
+              "nome": "desodorante",
+              "quantidade": 6
+            },
+            {
+              "nome": "papel_higienico",
+              "quantidade": 36
+            },
+            {
+              "nome": "absorvente",
+              "quantidade": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "demandaAtual": {
+        "genero": "Feminino",
+        "faixaetaria": "30-45",
+        "quantidade": 5,
+        "particularidades": [
+          {
+            "tipo": "Hipertensos",
+            "quantidade": 1
+          }
+        ]
+      },
+      "necessidades": [
+        {
+          "servicos": [],
+          "medicamentos": [],
+          "alimentos": [
+            {
+              "nome": "arroz",
+              "quantidade": 20
+            },
+            {
+              "nome": "feijao",
+              "quantidade": 10
+            },
+            {
+              "nome": "macarrao",
+              "quantidade": 10
+            },
+            {
+              "nome": "oleo",
+              "quantidade": 10
+            },
+            {
+              "nome": "sal",
+              "quantidade": 5
+            },
+            {
+              "nome": "acucar",
+              "quantidade": 10
+            },
+            {
+              "nome": "cafe",
+              "quantidade": 5
+            },
+            {
+              "nome": "farinha_de_trigo",
+              "quantidade": 10
+            },
+            {
+              "nome": "batata",
+              "quantidade": 30
+            },
+            {
+              "nome": "cenoura",
+              "quantidade": 10
+            },
+            {
+              "nome": "tomate",
+              "quantidade": 10
+            },
+            {
+              "nome": "cebola",
+              "quantidade": 5
+            },
+            {
+              "nome": "banana",
+              "quantidade": 20
+            },
+            {
+              "nome": "laranja",
+              "quantidade": 10
+            },
+            {
+              "nome": "leite",
+              "quantidade": 30
+            },
+            {
+              "nome": "carne_bovina",
+              "quantidade": 20
+            },
+            {
+              "nome": "frango",
+              "quantidade": 10
+            },
+            {
+              "nome": "peixe",
+              "quantidade": 5
+            },
+            {
+              "nome": "ovos",
+              "quantidade": 10
+            }
+          ],
+          "higiene": [
+            {
+              "nome": "sabonete",
+              "quantidade": 20
+            },
+            {
+              "nome": "shampoo",
+              "quantidade": 10
+            },
+            {
+              "nome": "condicionador",
+              "quantidade": 10
+            },
+            {
+              "nome": "creme_dental",
+              "quantidade": 20
+            },
+            {
+              "nome": "escova_de_dentes",
+              "quantidade": 10
+            },
+            {
+              "nome": "pasta_de_dentes",
+              "quantidade": 10
+            },
+            {
+              "nome": "desodorante",
+              "quantidade": 20
+            },
+            {
+              "nome": "papel_higienico",
+              "quantidade": 120
+            }
+          ]
+        },
+        {
+          "servicos": [
+            {
+              "nome": "Cardiologista",
+              "quantidade": "1"
+            }
+          ],
+          "medicamentos": [
+            {
+              "nome": "Hidroclorotiazida Medley 25mg",
+              "quantidade": 1
+            }
+          ],
+          "alimentos": [
+            {
+              "nome": "arroz",
+              "quantidade": 10
+            },
+            {
+              "nome": "feijao",
+              "quantidade": 5
+            },
+            {
+              "nome": "macarrao",
+              "quantidade": 5
+            },
+            {
+              "nome": "oleo",
+              "quantidade": 5
+            },
+            {
+              "nome": "sal",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "acucar",
+              "quantidade": 5
+            },
+            {
+              "nome": "cafe",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "farinha_de_trigo",
+              "quantidade": 5
+            },
+            {
+              "nome": "batata",
+              "quantidade": 15
+            },
+            {
+              "nome": "cenoura",
+              "quantidade": 5
+            },
+            {
+              "nome": "tomate",
+              "quantidade": 5
+            },
+            {
+              "nome": "cebola",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "banana",
+              "quantidade": 10
+            },
+            {
+              "nome": "laranja",
+              "quantidade": 5
+            },
+            {
+              "nome": "leite",
+              "quantidade": 15
+            },
+            {
+              "nome": "carne_bovina",
+              "quantidade": 10
+            },
+            {
+              "nome": "frango",
+              "quantidade": 5
+            },
+            {
+              "nome": "peixe",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "ovos",
+              "quantidade": 5
+            }
+          ],
+          "higiene": [
+            {
+              "nome": "sabonete",
+              "quantidade": 10
+            },
+            {
+              "nome": "shampoo",
+              "quantidade": 5
+            },
+            {
+              "nome": "condicionador",
+              "quantidade": 5
+            },
+            {
+              "nome": "creme_dental",
+              "quantidade": 10
+            },
+            {
+              "nome": "escova_de_dentes",
+              "quantidade": 5
+            },
+            {
+              "nome": "pasta_de_dentes",
+              "quantidade": 5
+            },
+            {
+              "nome": "desodorante",
+              "quantidade": 10
+            },
+            {
+              "nome": "papel_higienico",
+              "quantidade": 60
+            },
+            {
+              "nome": "absorvente",
+              "quantidade": 10
+            }
+          ]
+        },
+        {
+          "servicos": [
+            {
+              "nome": "Cardiologista",
+              "quantidade": "1"
+            }
+          ],
+          "medicamentos": [
+            {
+              "nome": "Hidroclorotiazida Medley 25mg",
+              "quantidade": 1
+            }
+          ],
+          "alimentos": [
+            {
+              "nome": "arroz",
+              "quantidade": 6
+            },
+            {
+              "nome": "feijao",
+              "quantidade": 3
+            },
+            {
+              "nome": "macarrao",
+              "quantidade": 3
+            },
+            {
+              "nome": "oleo",
+              "quantidade": 3
+            },
+            {
+              "nome": "sal",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "acucar",
+              "quantidade": 3
+            },
+            {
+              "nome": "cafe",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "farinha_de_trigo",
+              "quantidade": 3
+            },
+            {
+              "nome": "batata",
+              "quantidade": 9
+            },
+            {
+              "nome": "cenoura",
+              "quantidade": 3
+            },
+            {
+              "nome": "tomate",
+              "quantidade": 3
+            },
+            {
+              "nome": "cebola",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "banana",
+              "quantidade": 6
+            },
+            {
+              "nome": "laranja",
+              "quantidade": 3
+            },
+            {
+              "nome": "leite",
+              "quantidade": 9
+            },
+            {
+              "nome": "carne_bovina",
+              "quantidade": 6
+            },
+            {
+              "nome": "frango",
+              "quantidade": 3
+            },
+            {
+              "nome": "peixe",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "ovos",
+              "quantidade": 3
+            }
+          ],
+          "higiene": [
+            {
+              "nome": "sabonete",
+              "quantidade": 6
+            },
+            {
+              "nome": "shampoo",
+              "quantidade": 3
+            },
+            {
+              "nome": "condicionador",
+              "quantidade": 3
+            },
+            {
+              "nome": "creme_dental",
+              "quantidade": 6
+            },
+            {
+              "nome": "escova_de_dentes",
+              "quantidade": 3
+            },
+            {
+              "nome": "pasta_de_dentes",
+              "quantidade": 3
+            },
+            {
+              "nome": "desodorante",
+              "quantidade": 6
+            },
+            {
+              "nome": "papel_higienico",
+              "quantidade": 36
+            },
+            {
+              "nome": "absorvente",
+              "quantidade": 6
+            }
+          ]
+        },
+        {
+          "servicos": [],
+          "medicamentos": [],
+          "alimentos": [
+            {
+              "nome": "arroz",
+              "quantidade": 20
+            },
+            {
+              "nome": "feijao",
+              "quantidade": 10
+            },
+            {
+              "nome": "macarrao",
+              "quantidade": 10
+            },
+            {
+              "nome": "oleo",
+              "quantidade": 10
+            },
+            {
+              "nome": "sal",
+              "quantidade": 5
+            },
+            {
+              "nome": "acucar",
+              "quantidade": 10
+            },
+            {
+              "nome": "cafe",
+              "quantidade": 5
+            },
+            {
+              "nome": "farinha_de_trigo",
+              "quantidade": 10
+            },
+            {
+              "nome": "batata",
+              "quantidade": 30
+            },
+            {
+              "nome": "cenoura",
+              "quantidade": 10
+            },
+            {
+              "nome": "tomate",
+              "quantidade": 10
+            },
+            {
+              "nome": "cebola",
+              "quantidade": 5
+            },
+            {
+              "nome": "banana",
+              "quantidade": 20
+            },
+            {
+              "nome": "laranja",
+              "quantidade": 10
+            },
+            {
+              "nome": "leite",
+              "quantidade": 30
+            },
+            {
+              "nome": "carne_bovina",
+              "quantidade": 20
+            },
+            {
+              "nome": "frango",
+              "quantidade": 10
+            },
+            {
+              "nome": "peixe",
+              "quantidade": 5
+            },
+            {
+              "nome": "ovos",
+              "quantidade": 10
+            }
+          ],
+          "higiene": [
+            {
+              "nome": "sabonete",
+              "quantidade": 20
+            },
+            {
+              "nome": "shampoo",
+              "quantidade": 10
+            },
+            {
+              "nome": "condicionador",
+              "quantidade": 10
+            },
+            {
+              "nome": "creme_dental",
+              "quantidade": 20
+            },
+            {
+              "nome": "escova_de_dentes",
+              "quantidade": 10
+            },
+            {
+              "nome": "pasta_de_dentes",
+              "quantidade": 10
+            },
+            {
+              "nome": "desodorante",
+              "quantidade": 20
+            },
+            {
+              "nome": "papel_higienico",
+              "quantidade": 120
+            }
+          ]
+        },
+        {
+          "servicos": [
+            {
+              "nome": "Cardiologista",
+              "quantidade": "1"
+            }
+          ],
+          "medicamentos": [
+            {
+              "nome": "Hidroclorotiazida Medley 25mg",
+              "quantidade": 1
+            }
+          ],
+          "alimentos": [
+            {
+              "nome": "arroz",
+              "quantidade": 10
+            },
+            {
+              "nome": "feijao",
+              "quantidade": 5
+            },
+            {
+              "nome": "macarrao",
+              "quantidade": 5
+            },
+            {
+              "nome": "oleo",
+              "quantidade": 5
+            },
+            {
+              "nome": "sal",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "acucar",
+              "quantidade": 5
+            },
+            {
+              "nome": "cafe",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "farinha_de_trigo",
+              "quantidade": 5
+            },
+            {
+              "nome": "batata",
+              "quantidade": 15
+            },
+            {
+              "nome": "cenoura",
+              "quantidade": 5
+            },
+            {
+              "nome": "tomate",
+              "quantidade": 5
+            },
+            {
+              "nome": "cebola",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "banana",
+              "quantidade": 10
+            },
+            {
+              "nome": "laranja",
+              "quantidade": 5
+            },
+            {
+              "nome": "leite",
+              "quantidade": 15
+            },
+            {
+              "nome": "carne_bovina",
+              "quantidade": 10
+            },
+            {
+              "nome": "frango",
+              "quantidade": 5
+            },
+            {
+              "nome": "peixe",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "ovos",
+              "quantidade": 5
+            }
+          ],
+          "higiene": [
+            {
+              "nome": "sabonete",
+              "quantidade": 10
+            },
+            {
+              "nome": "shampoo",
+              "quantidade": 5
+            },
+            {
+              "nome": "condicionador",
+              "quantidade": 5
+            },
+            {
+              "nome": "creme_dental",
+              "quantidade": 10
+            },
+            {
+              "nome": "escova_de_dentes",
+              "quantidade": 5
+            },
+            {
+              "nome": "pasta_de_dentes",
+              "quantidade": 5
+            },
+            {
+              "nome": "desodorante",
+              "quantidade": 10
+            },
+            {
+              "nome": "papel_higienico",
+              "quantidade": 60
+            },
+            {
+              "nome": "absorvente",
+              "quantidade": 10
+            }
+          ]
+        },
+        {
+          "servicos": [
+            {
+              "nome": "Cardiologista",
+              "quantidade": "1"
+            }
+          ],
+          "medicamentos": [
+            {
+              "nome": "Hidroclorotiazida Medley 25mg",
+              "quantidade": 1
+            }
+          ],
+          "alimentos": [
+            {
+              "nome": "arroz",
+              "quantidade": 6
+            },
+            {
+              "nome": "feijao",
+              "quantidade": 3
+            },
+            {
+              "nome": "macarrao",
+              "quantidade": 3
+            },
+            {
+              "nome": "oleo",
+              "quantidade": 3
+            },
+            {
+              "nome": "sal",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "acucar",
+              "quantidade": 3
+            },
+            {
+              "nome": "cafe",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "farinha_de_trigo",
+              "quantidade": 3
+            },
+            {
+              "nome": "batata",
+              "quantidade": 9
+            },
+            {
+              "nome": "cenoura",
+              "quantidade": 3
+            },
+            {
+              "nome": "tomate",
+              "quantidade": 3
+            },
+            {
+              "nome": "cebola",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "banana",
+              "quantidade": 6
+            },
+            {
+              "nome": "laranja",
+              "quantidade": 3
+            },
+            {
+              "nome": "leite",
+              "quantidade": 9
+            },
+            {
+              "nome": "carne_bovina",
+              "quantidade": 6
+            },
+            {
+              "nome": "frango",
+              "quantidade": 3
+            },
+            {
+              "nome": "peixe",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "ovos",
+              "quantidade": 3
+            }
+          ],
+          "higiene": [
+            {
+              "nome": "sabonete",
+              "quantidade": 6
+            },
+            {
+              "nome": "shampoo",
+              "quantidade": 3
+            },
+            {
+              "nome": "condicionador",
+              "quantidade": 3
+            },
+            {
+              "nome": "creme_dental",
+              "quantidade": 6
+            },
+            {
+              "nome": "escova_de_dentes",
+              "quantidade": 3
+            },
+            {
+              "nome": "pasta_de_dentes",
+              "quantidade": 3
+            },
+            {
+              "nome": "desodorante",
+              "quantidade": 6
+            },
+            {
+              "nome": "papel_higienico",
+              "quantidade": 36
+            },
+            {
+              "nome": "absorvente",
+              "quantidade": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "demandaAtual": {
+        "genero": "Feminino",
+        "faixaetaria": "18-25",
+        "quantidade": 3,
+        "particularidades": [
+          {
+            "tipo": "Cadeirantes",
+            "quantidade": 1
+          },
+          {
+            "tipo": "Hipertensos",
+            "quantidade": 1
+          }
+        ]
+      },
+      "necessidades": [
+        {
+          "servicos": [],
+          "medicamentos": [],
+          "alimentos": [
+            {
+              "nome": "arroz",
+              "quantidade": 20
+            },
+            {
+              "nome": "feijao",
+              "quantidade": 10
+            },
+            {
+              "nome": "macarrao",
+              "quantidade": 10
+            },
+            {
+              "nome": "oleo",
+              "quantidade": 10
+            },
+            {
+              "nome": "sal",
+              "quantidade": 5
+            },
+            {
+              "nome": "acucar",
+              "quantidade": 10
+            },
+            {
+              "nome": "cafe",
+              "quantidade": 5
+            },
+            {
+              "nome": "farinha_de_trigo",
+              "quantidade": 10
+            },
+            {
+              "nome": "batata",
+              "quantidade": 30
+            },
+            {
+              "nome": "cenoura",
+              "quantidade": 10
+            },
+            {
+              "nome": "tomate",
+              "quantidade": 10
+            },
+            {
+              "nome": "cebola",
+              "quantidade": 5
+            },
+            {
+              "nome": "banana",
+              "quantidade": 20
+            },
+            {
+              "nome": "laranja",
+              "quantidade": 10
+            },
+            {
+              "nome": "leite",
+              "quantidade": 30
+            },
+            {
+              "nome": "carne_bovina",
+              "quantidade": 20
+            },
+            {
+              "nome": "frango",
+              "quantidade": 10
+            },
+            {
+              "nome": "peixe",
+              "quantidade": 5
+            },
+            {
+              "nome": "ovos",
+              "quantidade": 10
+            }
+          ],
+          "higiene": [
+            {
+              "nome": "sabonete",
+              "quantidade": 20
+            },
+            {
+              "nome": "shampoo",
+              "quantidade": 10
+            },
+            {
+              "nome": "condicionador",
+              "quantidade": 10
+            },
+            {
+              "nome": "creme_dental",
+              "quantidade": 20
+            },
+            {
+              "nome": "escova_de_dentes",
+              "quantidade": 10
+            },
+            {
+              "nome": "pasta_de_dentes",
+              "quantidade": 10
+            },
+            {
+              "nome": "desodorante",
+              "quantidade": 20
+            },
+            {
+              "nome": "papel_higienico",
+              "quantidade": 120
+            }
+          ]
+        },
+        {
+          "servicos": [
+            {
+              "nome": "Cardiologista",
+              "quantidade": "1"
+            }
+          ],
+          "medicamentos": [
+            {
+              "nome": "Hidroclorotiazida Medley 25mg",
+              "quantidade": 1
+            }
+          ],
+          "alimentos": [
+            {
+              "nome": "arroz",
+              "quantidade": 10
+            },
+            {
+              "nome": "feijao",
+              "quantidade": 5
+            },
+            {
+              "nome": "macarrao",
+              "quantidade": 5
+            },
+            {
+              "nome": "oleo",
+              "quantidade": 5
+            },
+            {
+              "nome": "sal",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "acucar",
+              "quantidade": 5
+            },
+            {
+              "nome": "cafe",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "farinha_de_trigo",
+              "quantidade": 5
+            },
+            {
+              "nome": "batata",
+              "quantidade": 15
+            },
+            {
+              "nome": "cenoura",
+              "quantidade": 5
+            },
+            {
+              "nome": "tomate",
+              "quantidade": 5
+            },
+            {
+              "nome": "cebola",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "banana",
+              "quantidade": 10
+            },
+            {
+              "nome": "laranja",
+              "quantidade": 5
+            },
+            {
+              "nome": "leite",
+              "quantidade": 15
+            },
+            {
+              "nome": "carne_bovina",
+              "quantidade": 10
+            },
+            {
+              "nome": "frango",
+              "quantidade": 5
+            },
+            {
+              "nome": "peixe",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "ovos",
+              "quantidade": 5
+            }
+          ],
+          "higiene": [
+            {
+              "nome": "sabonete",
+              "quantidade": 10
+            },
+            {
+              "nome": "shampoo",
+              "quantidade": 5
+            },
+            {
+              "nome": "condicionador",
+              "quantidade": 5
+            },
+            {
+              "nome": "creme_dental",
+              "quantidade": 10
+            },
+            {
+              "nome": "escova_de_dentes",
+              "quantidade": 5
+            },
+            {
+              "nome": "pasta_de_dentes",
+              "quantidade": 5
+            },
+            {
+              "nome": "desodorante",
+              "quantidade": 10
+            },
+            {
+              "nome": "papel_higienico",
+              "quantidade": 60
+            },
+            {
+              "nome": "absorvente",
+              "quantidade": 10
+            }
+          ]
+        },
+        {
+          "servicos": [
+            {
+              "nome": "Cardiologista",
+              "quantidade": "1"
+            }
+          ],
+          "medicamentos": [
+            {
+              "nome": "Hidroclorotiazida Medley 25mg",
+              "quantidade": 1
+            }
+          ],
+          "alimentos": [
+            {
+              "nome": "arroz",
+              "quantidade": 6
+            },
+            {
+              "nome": "feijao",
+              "quantidade": 3
+            },
+            {
+              "nome": "macarrao",
+              "quantidade": 3
+            },
+            {
+              "nome": "oleo",
+              "quantidade": 3
+            },
+            {
+              "nome": "sal",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "acucar",
+              "quantidade": 3
+            },
+            {
+              "nome": "cafe",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "farinha_de_trigo",
+              "quantidade": 3
+            },
+            {
+              "nome": "batata",
+              "quantidade": 9
+            },
+            {
+              "nome": "cenoura",
+              "quantidade": 3
+            },
+            {
+              "nome": "tomate",
+              "quantidade": 3
+            },
+            {
+              "nome": "cebola",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "banana",
+              "quantidade": 6
+            },
+            {
+              "nome": "laranja",
+              "quantidade": 3
+            },
+            {
+              "nome": "leite",
+              "quantidade": 9
+            },
+            {
+              "nome": "carne_bovina",
+              "quantidade": 6
+            },
+            {
+              "nome": "frango",
+              "quantidade": 3
+            },
+            {
+              "nome": "peixe",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "ovos",
+              "quantidade": 3
+            }
+          ],
+          "higiene": [
+            {
+              "nome": "sabonete",
+              "quantidade": 6
+            },
+            {
+              "nome": "shampoo",
+              "quantidade": 3
+            },
+            {
+              "nome": "condicionador",
+              "quantidade": 3
+            },
+            {
+              "nome": "creme_dental",
+              "quantidade": 6
+            },
+            {
+              "nome": "escova_de_dentes",
+              "quantidade": 3
+            },
+            {
+              "nome": "pasta_de_dentes",
+              "quantidade": 3
+            },
+            {
+              "nome": "desodorante",
+              "quantidade": 6
+            },
+            {
+              "nome": "papel_higienico",
+              "quantidade": 36
+            },
+            {
+              "nome": "absorvente",
+              "quantidade": 6
+            }
+          ]
+        },
+        {
+          "servicos": [],
+          "medicamentos": [],
+          "alimentos": [
+            {
+              "nome": "arroz",
+              "quantidade": 20
+            },
+            {
+              "nome": "feijao",
+              "quantidade": 10
+            },
+            {
+              "nome": "macarrao",
+              "quantidade": 10
+            },
+            {
+              "nome": "oleo",
+              "quantidade": 10
+            },
+            {
+              "nome": "sal",
+              "quantidade": 5
+            },
+            {
+              "nome": "acucar",
+              "quantidade": 10
+            },
+            {
+              "nome": "cafe",
+              "quantidade": 5
+            },
+            {
+              "nome": "farinha_de_trigo",
+              "quantidade": 10
+            },
+            {
+              "nome": "batata",
+              "quantidade": 30
+            },
+            {
+              "nome": "cenoura",
+              "quantidade": 10
+            },
+            {
+              "nome": "tomate",
+              "quantidade": 10
+            },
+            {
+              "nome": "cebola",
+              "quantidade": 5
+            },
+            {
+              "nome": "banana",
+              "quantidade": 20
+            },
+            {
+              "nome": "laranja",
+              "quantidade": 10
+            },
+            {
+              "nome": "leite",
+              "quantidade": 30
+            },
+            {
+              "nome": "carne_bovina",
+              "quantidade": 20
+            },
+            {
+              "nome": "frango",
+              "quantidade": 10
+            },
+            {
+              "nome": "peixe",
+              "quantidade": 5
+            },
+            {
+              "nome": "ovos",
+              "quantidade": 10
+            }
+          ],
+          "higiene": [
+            {
+              "nome": "sabonete",
+              "quantidade": 20
+            },
+            {
+              "nome": "shampoo",
+              "quantidade": 10
+            },
+            {
+              "nome": "condicionador",
+              "quantidade": 10
+            },
+            {
+              "nome": "creme_dental",
+              "quantidade": 20
+            },
+            {
+              "nome": "escova_de_dentes",
+              "quantidade": 10
+            },
+            {
+              "nome": "pasta_de_dentes",
+              "quantidade": 10
+            },
+            {
+              "nome": "desodorante",
+              "quantidade": 20
+            },
+            {
+              "nome": "papel_higienico",
+              "quantidade": 120
+            }
+          ]
+        },
+        {
+          "servicos": [
+            {
+              "nome": "Cardiologista",
+              "quantidade": "1"
+            }
+          ],
+          "medicamentos": [
+            {
+              "nome": "Hidroclorotiazida Medley 25mg",
+              "quantidade": 1
+            }
+          ],
+          "alimentos": [
+            {
+              "nome": "arroz",
+              "quantidade": 10
+            },
+            {
+              "nome": "feijao",
+              "quantidade": 5
+            },
+            {
+              "nome": "macarrao",
+              "quantidade": 5
+            },
+            {
+              "nome": "oleo",
+              "quantidade": 5
+            },
+            {
+              "nome": "sal",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "acucar",
+              "quantidade": 5
+            },
+            {
+              "nome": "cafe",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "farinha_de_trigo",
+              "quantidade": 5
+            },
+            {
+              "nome": "batata",
+              "quantidade": 15
+            },
+            {
+              "nome": "cenoura",
+              "quantidade": 5
+            },
+            {
+              "nome": "tomate",
+              "quantidade": 5
+            },
+            {
+              "nome": "cebola",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "banana",
+              "quantidade": 10
+            },
+            {
+              "nome": "laranja",
+              "quantidade": 5
+            },
+            {
+              "nome": "leite",
+              "quantidade": 15
+            },
+            {
+              "nome": "carne_bovina",
+              "quantidade": 10
+            },
+            {
+              "nome": "frango",
+              "quantidade": 5
+            },
+            {
+              "nome": "peixe",
+              "quantidade": 2.5
+            },
+            {
+              "nome": "ovos",
+              "quantidade": 5
+            }
+          ],
+          "higiene": [
+            {
+              "nome": "sabonete",
+              "quantidade": 10
+            },
+            {
+              "nome": "shampoo",
+              "quantidade": 5
+            },
+            {
+              "nome": "condicionador",
+              "quantidade": 5
+            },
+            {
+              "nome": "creme_dental",
+              "quantidade": 10
+            },
+            {
+              "nome": "escova_de_dentes",
+              "quantidade": 5
+            },
+            {
+              "nome": "pasta_de_dentes",
+              "quantidade": 5
+            },
+            {
+              "nome": "desodorante",
+              "quantidade": 10
+            },
+            {
+              "nome": "papel_higienico",
+              "quantidade": 60
+            },
+            {
+              "nome": "absorvente",
+              "quantidade": 10
+            }
+          ]
+        },
+        {
+          "servicos": [
+            {
+              "nome": "Cardiologista",
+              "quantidade": "1"
+            }
+          ],
+          "medicamentos": [
+            {
+              "nome": "Hidroclorotiazida Medley 25mg",
+              "quantidade": 1
+            }
+          ],
+          "alimentos": [
+            {
+              "nome": "arroz",
+              "quantidade": 6
+            },
+            {
+              "nome": "feijao",
+              "quantidade": 3
+            },
+            {
+              "nome": "macarrao",
+              "quantidade": 3
+            },
+            {
+              "nome": "oleo",
+              "quantidade": 3
+            },
+            {
+              "nome": "sal",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "acucar",
+              "quantidade": 3
+            },
+            {
+              "nome": "cafe",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "farinha_de_trigo",
+              "quantidade": 3
+            },
+            {
+              "nome": "batata",
+              "quantidade": 9
+            },
+            {
+              "nome": "cenoura",
+              "quantidade": 3
+            },
+            {
+              "nome": "tomate",
+              "quantidade": 3
+            },
+            {
+              "nome": "cebola",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "banana",
+              "quantidade": 6
+            },
+            {
+              "nome": "laranja",
+              "quantidade": 3
+            },
+            {
+              "nome": "leite",
+              "quantidade": 9
+            },
+            {
+              "nome": "carne_bovina",
+              "quantidade": 6
+            },
+            {
+              "nome": "frango",
+              "quantidade": 3
+            },
+            {
+              "nome": "peixe",
+              "quantidade": 1.5
+            },
+            {
+              "nome": "ovos",
+              "quantidade": 3
+            }
+          ],
+          "higiene": [
+            {
+              "nome": "sabonete",
+              "quantidade": 6
+            },
+            {
+              "nome": "shampoo",
+              "quantidade": 3
+            },
+            {
+              "nome": "condicionador",
+              "quantidade": 3
+            },
+            {
+              "nome": "creme_dental",
+              "quantidade": 6
+            },
+            {
+              "nome": "escova_de_dentes",
+              "quantidade": 3
+            },
+            {
+              "nome": "pasta_de_dentes",
+              "quantidade": 3
+            },
+            {
+              "nome": "desodorante",
+              "quantidade": 6
+            },
+            {
+              "nome": "papel_higienico",
+              "quantidade": 36
+            },
+            {
+              "nome": "absorvente",
+              "quantidade": 6
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}]
