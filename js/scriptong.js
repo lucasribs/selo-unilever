@@ -334,6 +334,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Função para popular a tabela
 function popularNecessidade(necessidades) {
+    const div = document.getElementById("divNecessidades").setAttribute("class", "");
     const tableNecessidade = document.getElementById("necessidadesTable").getElementsByTagName('tbody')[0];
     tableNecessidade.innerHTML = ""; // Limpa a tabela antes de preenchê-la
 
