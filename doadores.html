@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
   <meta name="generator" content="Hugo 0.122.0">
-  <title>Ongs</title>
+  <title>Instituições Parceiras</title>
 
   <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
 
@@ -101,12 +101,14 @@
   <link href="carousel.css" rel="stylesheet">
 </head>
 <body>
+
+
 <header data-bs-theme="light">
   <nav class="navbar bg-body-tertiary fixed-top">
     <div class="container-fluid">
       <a href="index.html">
         <img src = "img/logo.png" width="120px"></a>
-      <a class="navbar-brand" href="ong.html"> <h2>ONGs Parceiras</h2></a>
+      <a class="navbar-brand" href="doadores.html"> <h2>Instituições Parceiras</h2></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -143,8 +145,6 @@
 <main>
 
 
-
-
   <div class="modal modal-lg fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -170,7 +170,7 @@
             <div class ="row">
               <div class ="col">
 
-                  <legend class = "text-center">Tipos de Necessidades:</legend>
+                  <legend class = "text-center">Tipos de Doações:</legend>
               </div>
               </div>
             <div class ="row">
@@ -200,8 +200,9 @@
                 <label  for="email"> Email de contato: </label>
                 <input name="email" class="form-label" id="email" type="email" placeholder="name@gmail.com">
               </div>
-              <div class ="col-md-6">
-                <input name="lido" id="li" type="checkbox"><label for="li">Desejo receber contato para parceria</label>
+              <div class =" col-md-6">
+                <label  for="email"> Telefone contato: </label>
+                <input name="email" class="form-label" id="phone" type="phone" placeholder="(xx)xxxxx-xxxx">
               </div>
             </div>
           </div>
@@ -214,6 +215,7 @@
     </div>
   </div>
   <br>
+  <br>
   <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -221,32 +223,22 @@
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
-      <div class="carousel-item active" style = "background-image: url('img/ong1.jpg');  background-size: cover; background-position-x: center;    background-position-y: top; background-repeat: no-repeat;">
+      <div class="carousel-item active" style = "background-image: url('img/unilever.jpg'); background-size: cover;   background-position-x: center;    background-position-y: top; background-repeat: no-repeat;">
         <svg class="bd-placeholder-img" style=" opacity : 0.6;" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
         <div class="container">
           <div class="carousel-caption  d-none d-md-block">
-            <h1>Doe Alimentos.</h1>
-            <p class="opacity-75">Criado pela Rede de Bancos de Alimentos do Rio Grande do Sul, reconhecida instituição que há 20 anos ajuda a minimizar a fome no Estado.</p>
-            <p><a class="btn btn-lg btn-primary" href="https://www.doealimentos.com.br/Inicial">Conheça a ONG.</a></p>
+            <h1>Unilever.</h1>
+            <p class="opacity-75">A Unilever tem como objetivo ser um agente de transformação social, gerando impacto positivo para tornarmos o mundo um lugar melhor.</p>
+            <p><a class="btn btn-lg btn-primary" href="https://www.doealimentos.com.br/Inicial">Conheça a Unilever Social.</a></p>
           </div>
         </div>
       </div>
-      <div class="carousel-item" style = "background-image: url('img/ong2.jpg'); background-size: cover;  background-position-y: top;   background-position-x: center; background-repeat: no-repeat;">
-        <svg class="bd-placeholder-img" style=" opacity : 0.6;" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>Só Juntos.</h1>
-            <p>Somos uma Organização Não Governamental (ONG), sem fins lucrativos e apartidária, criada há mais de 25 anos. Acreditamos que só juntos potencializamos o impacto positivo nas comunidades. Vamos juntos nessa? </p>
-            <p><a class="btn btn-lg btn-primary" href="https://parceirosvoluntarios.org.br/">Saiba Mais</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item" style = "background-image: url('img/ong3.png'); background-size: cover;  background-position-x: center;    background-position-y: top; background-repeat: no-repeat;">
+      <div class="carousel-item" style = "background-image: url('img/parceiros.jpg'); background-size: cover;  background-position-x: center;    background-position-y: top; background-repeat: no-repeat;">
         <svg class="bd-placeholder-img" style=" opacity : 0.6;" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
         <div class="container">
           <div class="carousel-caption text-end">
-            <h1>Sua ONG também pode ajudar?</h1>
-            <p>Cadastre-se e faça parte das ONGs solidarias.</p>
+            <h1>Deseja Doar?</h1>
+            <p>Cadastre-se e faça parte das Instituições Parceiras.</p>
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
               Registre-se aqui!
             </button>
@@ -268,12 +260,44 @@
   ================================================== -->
   <!-- Wrap the rest of the page in another container to center all the content. -->
 
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class = "col">
+        <h2>Seja um doador!</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <img src = "img/fiscal.jpg" width="170">
+        <h2 class="fw-normal">Benefícios Fiscais</h2>
+        <p>Isenções fiscais baseadas na Lei.</p>
+        <p><a class="btn btn-secondary" href="#">Saber Mais &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-6">
+        <img src = "img/Social.jpg" width="170">
+        <h2 class="fw-normal">Certificação</h2>
+        <p>Selo de Responsabilidade Social.</p>
+        <p><a class="btn btn-secondary" href="#">Saber Mais &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+  </div>
+
     <!-- START THE FEATURETTES -->
 
 
     <!-- FOOTER -->
+    <footer class="container">
+      <p class="float-end"><a href="#">Back to top</a></p>
+      <p>&copy; 2017–2024 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer>
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+
+
 </main>
-<script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+
 
 </body>
 </html>

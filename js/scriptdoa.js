@@ -17,112 +17,6 @@ function carregarDoacaos() {
         .catch(error => console.error('Erro ao carregar doacaos:', error));
 }
 
-function calcularServicos(d){
-    var serviceActual = [];
-    /*
-    for (const p of d.particularidades) {
-        if (p.tipo.includes("Gravidas")) {
-            serviceActual.push({
-                nome: "Ginecologista",
-                quantidade: "1"
-            });
-        }
-        if (p.tipo.includes("Hipertensos")) {
-            serviceActual.push({
-                nome: "Cardiologista",
-                quantidade: "1"
-            });
-        }
-    }*/
-    return serviceActual;
-
-}
-
-function calcularAlimentos(doacao){
-    var alimentos = [];
-    /*alimentos.push({ "nome": "arroz", "quantidade": 2*doacao.quantidade },   // kg por semana
-        { "nome": "feijao", "quantidade": 1*doacao.quantidade },  // kg por semana
-        { "nome": "macarrao", "quantidade": 1*doacao.quantidade },  // kg por semana
-        { "nome": "oleo", "quantidade": 1*doacao.quantidade },  // litro por semana
-        { "nome": "sal", "quantidade": 0.5*doacao.quantidade },  // kg por semana
-        { "nome": "acucar", "quantidade": 1*doacao.quantidade },  // kg por semana
-        { "nome": "cafe", "quantidade": 0.5*doacao.quantidade},  // kg por semana
-        { "nome": "farinha_de_trigo", "quantidade": 1*doacao.quantidade },  // kg por semana
-        { "nome": "batata", "quantidade": 3*doacao.quantidade },  // kg por semana
-        { "nome": "cenoura", "quantidade": 1*doacao.quantidade },  // kg por semana
-        { "nome": "tomate", "quantidade": 1*doacao.quantidade },  // kg por semana
-        { "nome": "cebola", "quantidade": 0.5*doacao.quantidade },  // kg por semana
-        { "nome": "banana", "quantidade": 2*doacao.quantidade },  // dúzias por semana
-        { "nome": "laranja", "quantidade": 1*doacao.quantidade },  // dúzias por semana
-        { "nome": "leite", "quantidade": 3*doacao.quantidade },  // litros por semana
-        { "nome": "carne_bovina", "quantidade": 2*doacao.quantidade },  // kg por semana
-        { "nome": "frango", "quantidade": 1*doacao.quantidade },  // kg por semana
-        { "nome": "peixe", "quantidade": 0.5*doacao.quantidade },  // kg por semana
-        { "nome": "ovos", "quantidade": 1*doacao.quantidade });  // dúzias por semana
-
-     */
-    return alimentos;
-}
-
-function calcularMedicamentos(d){
-    var medicamentoAtual = [];
-    /*
-    for (const p of d.particularidades) {
-
-        if (p.tipo.includes("Gravidas")) {
-            medicamentoAtual.push({
-                nome: "Piridoxina",
-                quantidade: p.quantidade
-            },{
-                nome: "Ácido fólico",
-                quantidade: p.quantidade
-            })
-        }
-        if (p.tipo.includes("Hipertensos")) {
-            medicamentoAtual.push({
-                nome: "Hidroclorotiazida Medley 25mg",
-                quantidade: p.quantidade
-            });
-        }
-    }*/
-    return medicamentoAtual;
-}
-
-
-function calcularHigiene(d){
-    var produtos = [];
-
-    var produtosNecessarios =
-
-    produtos.push({ "nome": "sabonete", "quantidade": 2*d.quantidade },   // unidades por mês
-        { "nome": "shampoo", "quantidade": 1*d.quantidade},  // unidades por mês
-        { "nome": "condicionador", "quantidade": 1*d.quantidade },  // unidades por mês
-        { "nome": "creme_dental", "quantidade": 2*d.quantidade },  // unidades por mês
-        { "nome": "escova_de_dentes", "quantidade": 1*d.quantidade },  // unidades por trimestre
-        { "nome": "pasta_de_dentes", "quantidade": 1*d.quantidade },  // unidades por mês
-        { "nome": "desodorante", "quantidade": 2*d.quantidade },  // unidades por mês
-        { "nome": "papel_higienico", "quantidade": 12*d.quantidade },  // rolos por mês
-    )   // unidades por ciclo menstrual
-    if(d.genero.includes("Feminino"))
-        produtos.push({"nome": "absorvente", "quantidade": 2*d.quantidade})
-    return produtos;
-}
-
-function calcularNecessidades(doacao){
-    const servicos = calcularServicos(doacao);
-    const medicamentos = calcularMedicamentos(doacao);
-    const alimentos = calcularAlimentos(doacao);
-    const higiene = calcularHigiene(doacao);
-
-    necessidades.push({
-        servicos: servicos,
-        medicamentos: medicamentos,
-        alimentos: alimentos,
-        higiene: higiene
-    })
-    return necessidades;
-}
-
 // Função para popular a tabela
 function popularTabela(doacaos) {
     const tabela = document.getElementById("doacaoTable").getElementsByTagName('tbody')[0];
@@ -214,35 +108,6 @@ function salvarDoacao(event) {
 }
 
 
-function salvarNecessidades() {
-
-    var armazenamentoDoacaos = [];
-    doacaos.forEach((doacao, index) =>{
-        armazenamentoDoacaos.push({
-            id: index,
-            "doacaoAtual": doacao,
-            necessidades: calcularNecessidades(doacao)
-        })
-    })
-
-
-    let doacaoDaEmpresa = {empresaId: empresaId,
-        "doacaos": armazenamentoDoacaos}
-
-    const jsonContent = JSON.stringify(doacaoDaEmpresa, null, 2);
-    const blob = new Blob([jsonContent], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
-
-    const a = document.createElement('a');
-    a.style.display = 'none';
-    a.href = url;
-    a.download = 'doacaos.json';
-    document.body.appendChild(a);
-    a.click();
-    window.URL.revokeObjectURL(url);
-    document.body.removeChild(a);
-}
-
 document.addEventListener('DOMContentLoaded', function() {
     carregarDoacaos();
 });
@@ -250,6 +115,17 @@ document.addEventListener('DOMContentLoaded', function() {
 //popularTabela(doacaos);
 
 // Função para popular a tabela
+
+function calcularTempo(ong){
+
+    //alert(Math.floor(Math.random() * (tempoExp*5))+ "::"+tempoExp);
+    //return Math.floor(Math.random() * (tempoExp*5))<tempoExp;
+    if (ong.includes("SOJUNTOS"))
+        //alert(ong);
+        return true;
+    else return false;
+    //return ong.includes("SOJUNTOS");
+}
 
 function popularNecessidadesDoacao(needTotal, datuais){
     const div = document.getElementById("divNecessidades").setAttribute("class", "");
@@ -259,7 +135,7 @@ function popularNecessidadesDoacao(needTotal, datuais){
     let estoque = datual.quantidade;
     needTotal.forEach((need, ineed)=>{
         var necessidadesLidas = need.demandas[0].necessidades;
-        var ong = need.empresaId;
+        let ong = need.empresaId;
         necessidadesLidas.forEach((necessidade, index) => {
 
             if(datual.genero.includes("serviços")) {
@@ -276,12 +152,14 @@ function popularNecessidadesDoacao(needTotal, datuais){
                         const sQuantidadeCell = row.insertCell(3);
                         sQuantidadeCell.textContent = servico.quantidade;
                         const sdoeiCell = row.insertCell(4);
-
-                        if(datual.quantidade>=servico.quantidade){
-                            sdoeiCell.textContent = "Total";
+                        if(calcularTempo(ong)) {
+                            if (datual.quantidade >= servico.quantidade) {
+                                sdoeiCell.textContent = "Total";
+                            } else sdoeiCell.textContent = "Parcialmente";
+                            datual.quantidade = datual.quantidade - servico.quantidade;
+                        }else{
+                            sdoeiCell.textContent = "Tempo Insuficiente";
                         }
-                        else sdoeiCell.textContent = "Parcialmente";
-                        datual.quantidade = datual.quantidade - servico.quantidade;
                     }
                 }
                 )
@@ -301,10 +179,14 @@ function popularNecessidadesDoacao(needTotal, datuais){
                             sQuantidadeCell.textContent = medicamento.quantidade;
                             const sdoeiCell = row.insertCell(4);
 
-                            if (datual.quantidade >= medicamento.quantidade) {
-                                sdoeiCell.textContent = "Total";
-                            } else sdoeiCell.textContent = "Parcialmente";
-                            datual.quantidade = datual.quantidade - medicamento.quantidade;
+                            if(calcularTempo(ong)) {
+                                if (datual.quantidade >= medicamento.quantidade) {
+                                    sdoeiCell.textContent = "Total";
+                                } else sdoeiCell.textContent = "Parcialmente";
+                                datual.quantidade = datual.quantidade - medicamento.quantidade;
+                            }else{
+                                sdoeiCell.textContent = "Tempo Insuficiente";
+                            }
                         }
                     }
                 )
@@ -323,11 +205,14 @@ function popularNecessidadesDoacao(needTotal, datuais){
                         const sQuantidadeCell = row.insertCell(3);
                         sQuantidadeCell.textContent = alimento.quantidade;
                         const sdoeiCell = row.insertCell(4);
-
-                        if (datual.quantidade >= alimento.quantidade) {
-                            sdoeiCell.textContent = "Total";
-                        } else sdoeiCell.textContent = "Parcialmente";
-                        datual.quantidade = datual.quantidade - alimento.quantidade;
+                        if(calcularTempo(ong)) {
+                            if (datual.quantidade >= alimento.quantidade) {
+                                sdoeiCell.textContent = "Total";
+                            } else sdoeiCell.textContent = "Parcialmente";
+                            datual.quantidade = datual.quantidade - alimento.quantidade;
+                        }else{
+                            sdoeiCell.textContent = "Tempo Insuficiente";
+                        }
                     }
                     }
                 )
@@ -346,12 +231,14 @@ function popularNecessidadesDoacao(needTotal, datuais){
                         const sQuantidadeCell = row.insertCell(3);
                         sQuantidadeCell.textContent = higiene.quantidade;
                         const sdoeiCell = row.insertCell(4);
-
-                        if(datual.quantidade>=higiene.quantidade){
-                            sdoeiCell.textContent = "Total";
+                        if(calcularTempo(ong)) {
+                            if (datual.quantidade >= higiene.quantidade) {
+                                sdoeiCell.textContent = "Total";
+                            } else sdoeiCell.textContent = "Parcialmente";
+                            datual.quantidade = datual.quantidade - higiene.quantidade;
+                        }else{
+                            sdoeiCell.textContent = "Tempo Insuficiente";
                         }
-                        else sdoeiCell.textContent = "Parcialmente";
-                        datual.quantidade = datual.quantidade - higiene.quantidade;
                     }
                 }
             )

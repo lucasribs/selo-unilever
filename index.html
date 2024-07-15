@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.122.0">
-    <title>Carousel Template · Bootstrap v5.3</title>
+    <title>Página Principal</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
 
@@ -15,7 +15,7 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
 
-<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
       .bd-placeholder-img {
@@ -101,256 +101,101 @@
     <link href="carousel.css" rel="stylesheet">
   </head>
   <body>
-    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
-      <symbol id="check2" viewBox="0 0 16 16">
-        <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
-      </symbol>
-      <symbol id="circle-half" viewBox="0 0 16 16">
-        <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
-      </symbol>
-      <symbol id="moon-stars-fill" viewBox="0 0 16 16">
-        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
-        <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
-      </symbol>
-      <symbol id="sun-fill" viewBox="0 0 16 16">
-        <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
-      </symbol>
-    </svg>
 
-    <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
-      <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
-              id="bd-theme"
-              type="button"
-              aria-expanded="false"
-              data-bs-toggle="dropdown"
-              aria-label="Toggle theme (auto)">
-        <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#circle-half"></use></svg>
-        <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
-      </button>
-      <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
-        <li>
-          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
-            <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#sun-fill"></use></svg>
-            Light
-            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
-          </button>
-        </li>
-        <li>
-          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
-            <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
-            Dark
-            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
-          </button>
-        </li>
-        <li>
-          <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
-            <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#circle-half"></use></svg>
-            Auto
-            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
-          </button>
-        </li>
-      </ul>
-    </div>
 
-    
-<header data-bs-theme="dark">
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Carousel</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+  <header data-bs-theme="light">
+    <nav class="navbar bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a href="index.html">
+          <img src = "img/logo.png" width="120px"></a>
+        <a class="navbar-brand" href="index.html"> <h2>Doe Brasil</h2></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Instituições Parceiras</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Página Principal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="doadores.html">Instituições Parceiras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="ong.html">ONGs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="ong-demandas.html">Cadastrar Demandas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="ong-doacoes.html">Doações</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </div>
-  </nav>
-</header>
+    </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </header>
 
 <main>
 
-
-
-
-  <div class="modal modal-lg fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Solicitação de Inscrição</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-
-        <div class="modal-body">
-          <div class="container-fluid">
-
-            <div class = "row">
-              <div class="col">
-                <label class ="form-label" for="nome">Nome:</label>
-                <input id="nome" name="primeiroNome">
-              </div>
-              <div class = "col">
-                <label class="form-label" for="data">Data de nascimento:</label>
-                <input id="data" name="date" type="date">
+  <div class="container mt-5">
+    <div class="row pt-5">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card" style="width: 30rem; height: 24rem">
+              <img src="img/doador.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Quer ser um doador?</p>
               </div>
             </div>
-            <div class ="row">
-              <div class ="col">
-                <label class="form-label" for="mar" for="ma">Preferência:</label>
-                <input id="mar" type="radio" name="esporte" value="mar"> maratona
-                <input id="ma" type="radio" name="esporte" value="ma"> meia maratona
-              </div>
-            </div>
-            <div class = "row">
-              <div class ="col-md-6">
-                <label class="form-label" for ="gen" for ="gene" for ="gener">GÊNERO:</label>
-                <input id="gen" type="radio" name="Gênero" value="m"> Masculino
-                <input id="gene" type="radio" name="Gênero" value="f"> Feminino
-                <input id="gener" type="radio" name="Gênero" value="o"> Outro
-              </div>
-              <div class =" col-md-6">
-                <label  for="email"> Email: </label>
-                <input name="email" class="form-label" id="email" type="email" placeholder="name@gmail.com">
-              </div>
-            </div>
-            <div class ="row">
-              <div class ="col-md-12">
-                <label class="form-label" for="d" for="a" for="de" for="di" for="do" for="ab" for="an" for="am" for="ai" for="ao">qual dia deseja:</label>
-                <h6>Meia Maratona:</h6>
-                <input id="d" type="checkbox" name="esporte" value="ma">12
-                <input id="di" type="checkbox" name="esporte" value="mar">13
-                <input id="de" type="checkbox" name="esporte" value="mari">14
-                <input id="do" type="checkbox" name="esporte" value="mark">15<br>
-
-                <h6>Maratona:</h6>
-                <input id="a" type="checkbox" name="esporte" value="m">20
-                <input id="ab" type="checkbox" name="esporte" value="a">21
-                <input id="an" type="checkbox" name="esporte" value="n">22
-                <input id="am" type="checkbox" name="esporte" value="p">23
-                <input id="ai" type="checkbox" name="esporte" value="o">24
-                <input id="ao" type="checkbox" name="esporte" value="q">25
-
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-6">
-                <label for="senha" class="form-label"> Password:</label><br>
-                <input id="senha" name="senha" type="Password">
-              </div>
-              <div class ="col-md-6">
-                <label for="li">Li os termos:</label>
-                <input name="lido" id="li" type="checkbox">
+          </div>
+          <div class="col-md-6">
+            <div class="card" style="width: 30rem;height: 24rem">
+              <img src="img/ong.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text"> É uma ONG que precisa de doações?</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active" style = "background-image: url('img/ong1.jpg');   background-position-x: center;    background-position-y: top; background-repeat: no-repeat;">
-        <svg class="bd-placeholder-img" style=" opacity : 0.6;" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
-        <div class="container">
-          <div class="carousel-caption  d-none d-md-block">
-            <h1>Doe Alimentos.</h1>
-            <p class="opacity-75">Criado pela Rede de Bancos de Alimentos do Rio Grande do Sul, reconhecida instituição que há 20 anos ajuda a minimizar a fome no Estado.</p>
-            <p><a class="btn btn-lg btn-primary" href="https://www.doealimentos.com.br/Inicial">Conheça a ONG.</a></p>
+          <div class = "row">
+            <div class="col-3">
+              </div>
+          <div class="col-6">
+            <div class="card" style="width: 30rem">
+              <img src="img/logo.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text"> Somos a solução para a conexão entre ongs e doadores.</p>
+              </div>
+            </div>
+          </div>
           </div>
         </div>
       </div>
-      <div class="carousel-item" style = "background-image: url('img/ong2.png');   background-position-y: top;   background-position-x: center; background-repeat: no-repeat;">
-        <svg class="bd-placeholder-img" style=" opacity : 0.6;" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>Só Juntos.</h1>
-            <p>Somos uma Organização Não Governamental (ONG), sem fins lucrativos e apartidária, criada há mais de 25 anos. Acreditamos que só juntos potencializamos o impacto positivo nas comunidades. Vamos juntos nessa? </p>
-            <p><a class="btn btn-lg btn-primary" href="https://parceirosvoluntarios.org.br/">Saiba Mais</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item" style = "background-image: url('img/ong3.png');   background-position-x: center;    background-position-y: top; background-repeat: no-repeat;">
-        <svg class="bd-placeholder-img" style=" opacity : 0.6;" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
-        <div class="container">
-          <div class="carousel-caption text-end">
-            <h1>Sua ONG também pode ajudar?</h1>
-            <p>Cadastre-se e faça parte das ONGs solidarias.</p>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-              Registre-se aqui!
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
 
   <!-- Marketing messaging and featurettes
   ================================================== -->
   <!-- Wrap the rest of the page in another container to center all the content. -->
 
-  <div class="container marketing">
 
     <!-- Three columns of text below the carousel -->
-    <div class="row">
-      <div class = "col">
-        <h2>Seja um doador!</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-6">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
-        <h2 class="fw-normal">Benefícios Fiscais</h2>
-        <p>Isenções fiscais baseadas na Lei.</p>
-        <p><a class="btn btn-secondary" href="#">Saber Mais &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-6">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
-        <h2 class="fw-normal">Certificação</h2>
-        <p>Selo de Responsabilidade Social.</p>
-        <p><a class="btn btn-secondary" href="#">Saber Mais &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-    </div><!-- /.row -->
 
 
     <!-- START THE FEATURETTES -->
 
 
-  <!-- FOOTER -->
+  <!--
   <footer class="container">
     <p class="float-end"><a href="#">Back to top</a></p>
     <p>&copy; 2017–2024 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
   </footer>
+  FOOTER -->
 </main>
 <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
 
